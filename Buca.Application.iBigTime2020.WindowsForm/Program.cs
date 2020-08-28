@@ -28,7 +28,7 @@ namespace Buca.Application.iBigTime2020.WindowsForm
     {
         /// <summary>
         /// The main entry point for the application.
-        /// Tien12
+        /// Tien123
         /// </summary>
         [STAThread]
         private static void Main()
