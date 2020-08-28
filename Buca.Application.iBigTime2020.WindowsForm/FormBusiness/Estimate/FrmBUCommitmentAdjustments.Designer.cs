@@ -1,0 +1,102 @@
+﻿using System;
+using DevExpress.XtraGrid.Views.Base;
+using DevExpress.XtraGrid.Views.Grid;
+
+namespace Buca.Application.iBigTime2020.WindowsForm.FormBusiness.Estimate
+{
+    partial class FrmBUCommitmentAdjustments
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.bandedGridView = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridView();
+            this.popupMenu = new DevExpress.XtraBars.PopupMenu();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceDetail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).BeginInit();
+            this.splitContainerControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bandedGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // splitContainerControl
+            // 
+            this.splitContainerControl.LookAndFeel.UseDefaultLookAndFeel = false;
+            // 
+            // bandedGridView
+            // 
+            this.bandedGridView.Appearance.HeaderPanel.Options.UseTextOptions = true;
+            this.bandedGridView.Appearance.HeaderPanel.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.bandedGridView.Appearance.HeaderPanel.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.bandedGridView.Appearance.TopNewRow.BackColor = System.Drawing.Color.Linen;
+            this.bandedGridView.Appearance.TopNewRow.Options.UseBackColor = true;
+            this.bandedGridView.Appearance.TopNewRow.Options.UseTextOptions = true;
+            this.bandedGridView.Appearance.TopNewRow.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Near;
+            this.bandedGridView.FixedLineWidth = 1;
+            this.bandedGridView.GridControl = this.gridDetail;
+            this.bandedGridView.Name = "bandedGridView";
+            this.bandedGridView.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
+            this.bandedGridView.OptionsCustomization.AllowQuickHideColumns = false;
+            this.bandedGridView.OptionsView.ColumnAutoWidth = false;
+            this.bandedGridView.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Top;
+            this.bandedGridView.OptionsView.ShowGroupPanel = false;
+            this.bandedGridView.OptionsView.ShowIndicator = false;
+            // 
+            // popupMenu
+            // 
+            this.popupMenu.Manager = this.barToolManager;
+            this.popupMenu.Name = "popupMenu";
+            // 
+            // FrmBUCommitmentAdjustments
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.EventTime = new System.DateTime(2019, 2, 22, 18, 13, 35, 636);
+            this.FormCaption = "Điều chỉnh cam kết chi";
+            this.FormDetail = "FrmBUCommitmentAdjustmentDetail";
+            this.Name = "FrmBUCommitmentAdjustments";
+            this.NamespaceForm = "Buca.Application.iBigTime2020.WindowsForm.FormBusiness.Estimate";
+            this.barToolManager.SetPopupContextMenu(this, this.popupMenu);
+            this.Reference = "THÊM ĐIỀU CHỈNH CAM KẾT CHI - ID  - SỐ CT: ";
+            this.TablePrimaryKey = "RefId";
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSourceDetail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).EndInit();
+            this.splitContainerControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bandedGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+    
+
+        #endregion
+        private DevExpress.XtraGrid.Views.BandedGrid.BandedGridView bandedGridView;
+        private DevExpress.XtraBars.PopupMenu popupMenu;
+        //  private DevExpress.XtraBars.PopupMenu popupMenu;
+    }
+}

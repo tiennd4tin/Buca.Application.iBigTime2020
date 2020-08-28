@@ -1,0 +1,1867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResAccountCaption" xml:space="preserve">
+    <value>Hệ thống tài khoản</value>
+  </data>
+  <data name="ResAccountCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã tài khoản !</value>
+  </data>
+  <data name="ResAccountingObject" xml:space="preserve">
+    <value>Đối tượng</value>
+  </data>
+  <data name="ResAccountName" xml:space="preserve">
+    <value>Bạn chưa nhập tên tài khoản !</value>
+  </data>
+  <data name="ResBudgetItemCaption" xml:space="preserve">
+    <value>Mục - Tiểu mục</value>
+  </data>
+  <data name="ResBudgetSourcePropertyCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã tính chất nguồn !</value>
+  </data>
+  <data name="ResBudgetSourcePropertyName" xml:space="preserve">
+    <value>Bạn chưa nhập tên tính chất nguồn !</value>
+  </data>
+  <data name="ResCashCaption" xml:space="preserve">
+    <value>Tiền mặt</value>
+  </data>
+  <data name="ResCashExpenseCaption" xml:space="preserve">
+    <value>Phiếu chi</value>
+  </data>
+  <data name="ResCashReceiptCaption" xml:space="preserve">
+    <value>Phiếu thu</value>
+  </data>
+  <data name="ResBudgetChapterCaption" xml:space="preserve">
+    <value>Chương</value>
+  </data>
+  <data name="ResCodeSameAsParentError" xml:space="preserve">
+    <value>Mã loại và mục cha không được giống nhau. </value>
+  </data>
+  <data name="ResCustomer" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="ResDeleteCaption" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="ResDeleteContent" xml:space="preserve">
+    <value>Bạn có muốn xóa dữ liệu không ?</value>
+  </data>
+  <data name="ResDeleteNotExit" xml:space="preserve">
+    <value>Dữ liệu không tồn tại</value>
+  </data>
+  <data name="ResDeleteResult" xml:space="preserve">
+    <value>Xóa dữ liệu thành công</value>
+  </data>
+  <data name="ResDeleteTreeHasChild" xml:space="preserve">
+    <value>Node đã có con không thể xóa dữ liệu</value>
+  </data>
+  <data name="ResDepartmentCaption" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="ResDepartmentCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã phòng ban</value>
+  </data>
+  <data name="ResDepartmentName" xml:space="preserve">
+    <value>Bạn chưa nhập tên phòng ban</value>
+  </data>
+  <data name="ResDepositCaption" xml:space="preserve">
+    <value>Tiền gửi</value>
+  </data>
+  <data name="ResDetailContent" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="ResEstimateCaption" xml:space="preserve">
+    <value>Dự toán</value>
+  </data>
+  <data name="ResExceptionCaption" xml:space="preserve">
+    <value>Thông báo lỗi</value>
+    <comment>Tiêu đề messagebox khi hiển thị try catch</comment>
+  </data>
+  <data name="ResFixedAssetCaption" xml:space="preserve">
+    <value>Tài sản cố định</value>
+  </data>
+  <data name="ResFixedAssetCategoryCaption" xml:space="preserve">
+    <value>Nhóm Tài sản cố định</value>
+  </data>
+  <data name="ResGeneralCaption" xml:space="preserve">
+    <value>Tổng hợp</value>
+  </data>
+  <data name="ResInventoryCaption" xml:space="preserve">
+    <value>nguyên liệu, vật liệu</value>
+  </data>
+  <data name="ResPayItemCaption" xml:space="preserve">
+    <value>Các khoản lương</value>
+  </data>
+  <data name="ResSalaryCaption" xml:space="preserve">
+    <value>Lương</value>
+  </data>
+  <data name="ResSaveData" xml:space="preserve">
+    <value>Bạn muốn lưu dữ liệu không ?</value>
+  </data>
+  <data name="ResSaveDataError" xml:space="preserve">
+    <value>Lưu dữ liệu không thành công</value>
+  </data>
+  <data name="ResSaveDataSuccess" xml:space="preserve">
+    <value>Lưu dữ liệu thành công</value>
+  </data>
+  <data name="ResVendor" xml:space="preserve">
+    <value>Nhà cung cấp</value>
+  </data>
+  <data name="ResPayItemCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã khoản lương</value>
+  </data>
+  <data name="ResPayItemName" xml:space="preserve">
+    <value>Bạn chưa nhập tên khoản lương</value>
+  </data>
+  <data name="ResPayItemPayBySelf" xml:space="preserve">
+    <value>Bạn chưa chọn các khoản cá nhân đóng</value>
+  </data>
+  <data name="ResPayItemType" xml:space="preserve">
+    <value>Bạn chưa chọn loại khoản lương</value>
+  </data>
+  <data name="ResBudgetItemCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã Mục/ Tiểu mục</value>
+  </data>
+  <data name="ResBudgetItemName" xml:space="preserve">
+    <value>Bạn chưa nhập tên nhóm/ mục</value>
+  </data>
+  <data name="ResCustomerCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã khách hàng</value>
+  </data>
+  <data name="ResCustomerName" xml:space="preserve">
+    <value>Bạn chưa nhập tên khách hàng</value>
+  </data>
+  <data name="ResVendorCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã nhà cung cấp</value>
+  </data>
+  <data name="ResVendorName" xml:space="preserve">
+    <value>Bạn chưa nhập tên nhà cung cấp</value>
+  </data>
+  <data name="ResEmployeeCaption" xml:space="preserve">
+    <value>Cán bộ</value>
+  </data>
+  <data name="ResEmployeeCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã cán bộ</value>
+  </data>
+  <data name="ResEmployeeName" xml:space="preserve">
+    <value>Bạn chưa nhập tên cán bộ</value>
+  </data>
+  <data name="ResEmployeeDepartment" xml:space="preserve">
+    <value>Bạn chưa chọn phòng ban </value>
+  </data>
+  <data name="ResCurrencyCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã tiền tệ</value>
+  </data>
+  <data name="ResCurrencyName" xml:space="preserve">
+    <value>Bạn chưa nhập tên tiền tệ</value>
+  </data>
+  <data name="ResEmptyCapitalAccount" xml:space="preserve">
+    <value>Bạn chưa chọn Tài khoản nguồn hình thành</value>
+  </data>
+  <data name="ResEmptyCcyID" xml:space="preserve">
+    <value>Bạn chưa chọn Loại tiền</value>
+  </data>
+  <data name="ResEmptyDepartmentID" xml:space="preserve">
+    <value>Bạn chưa chọn Phòng ban</value>
+  </data>
+  <data name="ResEmptyDepreciationAccount" xml:space="preserve">
+    <value>Bạn chưa chọn Tài khoản hao mòn</value>
+  </data>
+  <data name="ResEmptyDepreciationDate" xml:space="preserve">
+    <value>Bạn chưa nhập ngày bắt đầu tính hao mòn</value>
+  </data>
+  <data name="ResEmptyDepreciationRate" xml:space="preserve">
+    <value>Bạn chưa nhập Tỷ lệ hao mòn</value>
+  </data>
+  <data name="ResEmptyFixedAssetCategoryID" xml:space="preserve">
+    <value>Bạn chưa chọn Loại tài sản</value>
+  </data>
+  <data name="ResEmptyFixedAssetCode" xml:space="preserve">
+    <value>Bạn chưa nhập Mã tài sản</value>
+  </data>
+  <data name="ResEmptyFixedAssetName" xml:space="preserve">
+    <value>Bạn chưa nhập Tên tài sản</value>
+  </data>
+  <data name="ResEmptyLifeTime" xml:space="preserve">
+    <value>Bạn chưa nhập Số năm sử dụng</value>
+  </data>
+  <data name="ResEmptyOrgPriceAccount" xml:space="preserve">
+    <value>Bạn chưa chọn Tài khoản nguyên giá</value>
+  </data>
+  <data name="ResEmptyPurchasedDate" xml:space="preserve">
+    <value>Bạn chưa nhập Ngày mua</value>
+  </data>
+  <data name="ResEmptyUsedDate" xml:space="preserve">
+    <value>Bạn chưa nhập Ngày sử dụng</value>
+  </data>
+  <data name="ResCurrencyCaption" xml:space="preserve">
+    <value>Danh mục tiền tệ</value>
+  </data>
+  <data name="ResExchangeRateValid" xml:space="preserve">
+    <value>Bạn phải nhập tỷ giá thực tế làm cơ sở quy đổi cho tiền địa phương</value>
+  </data>
+  <data name="ResEmployeePayItemAmount" xml:space="preserve">
+    <value>Bạn không được nhập lương cơ bản &lt;= 0</value>
+  </data>
+  <data name="ResEmployeePayItemSalaryRatio" xml:space="preserve">
+    <value>Bạn không được nhập hệ số lương &lt;= 0</value>
+  </data>
+  <data name="ResRepositoryControlPayItemID" xml:space="preserve">
+    <value>Chọn khoản lương</value>
+  </data>
+  <data name="ResEmployeePayItemPayItemID" xml:space="preserve">
+    <value>Bạn chưa nhập mã khoản lương</value>
+  </data>
+  <data name="ResCapitalAllocateCaption" xml:space="preserve">
+    <value>Các khoản phân bổ quỹ</value>
+  </data>
+  <data name="ResAccountingCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã đối tượng</value>
+  </data>
+  <data name="ResAccountingName" xml:space="preserve">
+    <value>Bạn chưa nhập tên đối tượng</value>
+  </data>
+  <data name="ResAccountingType" xml:space="preserve">
+    <value>Bạn chưa chọn loại đối tượng</value>
+  </data>
+  <data name="ResPlanTemplateListCaption" xml:space="preserve">
+    <value>Mẫu dự toán</value>
+  </data>
+  <data name="ResRepositoryControlBudgetItemID" xml:space="preserve">
+    <value>Chọn mục lục ngân sách</value>
+  </data>
+  <data name="ResStockCaption" xml:space="preserve">
+    <value>Kho</value>
+  </data>
+  <data name="ResStockCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã kho</value>
+  </data>
+  <data name="ResStockName" xml:space="preserve">
+    <value>Bạn chưa nhập tên kho</value>
+  </data>
+  <data name="ResAccountCategory" xml:space="preserve">
+    <value>Bạn chưa chọn nhóm tài khoản hệ thống</value>
+  </data>
+  <data name="ResBalanceSide" xml:space="preserve">
+    <value>Bạn chưa chọn tính chất tài khoản</value>
+  </data>
+  <data name="ResBankCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã ngân hàng</value>
+  </data>
+  <data name="ResBankName" xml:space="preserve">
+    <value>Bạn chưa nhập tên ngân hàng</value>
+  </data>
+  <data name="ResBankCaption" xml:space="preserve">
+    <value>Tài khoản ngân hàng, kho bạc</value>
+  </data>
+  <data name="ResBudgetCategoryCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã loại khoản</value>
+  </data>
+  <data name="ResBudgetCategoryName" xml:space="preserve">
+    <value>Bạn chưa nhập tên loại khoản</value>
+  </data>
+  <data name="ResBudgetChapterCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã chương</value>
+  </data>
+  <data name="ResBudgetChapterName" xml:space="preserve">
+    <value>Bạn chưa nhập tên chương</value>
+  </data>
+  <data name="ResBudgetSourceCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã nguồn</value>
+  </data>
+  <data name="ResBudgetSourceName" xml:space="preserve">
+    <value>Bạn chưa nhập tên nguồn</value>
+  </data>
+  <data name="ResInventoryItemCaption" xml:space="preserve">
+    <value>Nguyên liệu, vật liệu</value>
+  </data>
+  <data name="ResInventoryItemCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã nguyên liệu, vật liệu</value>
+  </data>
+  <data name="ResInventoryItemName" xml:space="preserve">
+    <value>Bạn chưa nhập tên nguyên liệu, vật liệu</value>
+  </data>
+  <data name="ResAccountTranferCaption" xml:space="preserve">
+    <value>Tài khoản kết chuyển</value>
+  </data>
+  <data name="ResAccountTranferCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã tài khoản kết chuyển</value>
+  </data>
+  <data name="ResAccountSourceCode" xml:space="preserve">
+    <value>Bạn chưa nhập kết chuyển từ tài khoản nào</value>
+  </data>
+  <data name="ResAccountDestinationCode" xml:space="preserve">
+    <value>Bạn chưa nhập kết chuyển tới tài khoản nào</value>
+  </data>
+  <data name="ResPlanTemplateListCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã mẫu dự toán</value>
+  </data>
+  <data name="ResVoucherList" xml:space="preserve">
+    <value>Chứng từ ghi sổ</value>
+  </data>
+  <data name="ResPostDate" xml:space="preserve">
+    <value>Bạn chưa nhập ngày hạch toán</value>
+  </data>
+  <data name="ResPostDateCompare" xml:space="preserve">
+    <value>Ngày ghi sổ không thể nhỏ hơn ngày bắt đầu hạch toán</value>
+  </data>
+  <data name="ResVoucherDate" xml:space="preserve">
+    <value>Bạn chưa nhập ngày chứng từ</value>
+  </data>
+  <data name="ResVoucherDateCompare" xml:space="preserve">
+    <value>Ngày chứng từ không thể nhỏ hơn ngày bắt đầu hạch toán</value>
+  </data>
+  <data name="ResVoucherNo" xml:space="preserve">
+    <value>Bạn chưa nhập số chứng từ</value>
+  </data>
+  <data name="ResAccountCategoryCaption" xml:space="preserve">
+    <value>Nhóm tài khoản</value>
+  </data>
+  <data name="ResDepartmentNameSameAsParentError" xml:space="preserve">
+    <value>Bạn không được chọn phòng ban cha chính là nó</value>
+  </data>
+  <data name="ResPayItemDescription" xml:space="preserve">
+    <value>Bạn phải nhập mô tả công thức tính lương</value>
+  </data>
+  <data name="ResEmployeePayItemPayItemIDSame" xml:space="preserve">
+    <value>Không được chọn 2 mã khoản lương giống nhau</value>
+  </data>
+  <data name="ResCheckAccountCode" xml:space="preserve">
+    <value>Mã nhóm tài khoản đã tồn tại</value>
+  </data>
+  <data name="ResContainCodeParentError" xml:space="preserve">
+    <value>Mã nhóm tài khoản phải thuộc nhóm tài khoản cha</value>
+  </data>
+  <data name="ResAccountSourceCodeSameAccountDestinationCode" xml:space="preserve">
+    <value>2 tài khoản sử dụng kết chuyển không được giống nhau</value>
+  </data>
+  <data name="ResCheckAccountsCode" xml:space="preserve">
+    <value>Mã tài khoản đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="ResContainCodesParentError" xml:space="preserve">
+    <value>Mã tài khoản phải thuộc Tài khoản cha</value>
+  </data>
+  <data name="ResInventoryItemAccountCode" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản kho</value>
+  </data>
+  <data name="ResInventoryItemCostMethod" xml:space="preserve">
+    <value>Bạn chưa nhập phướng pháp tính giá</value>
+  </data>
+  <data name="ResInventoryItemUnit" xml:space="preserve">
+    <value>Bạn chưa nhập đơn vị tính</value>
+  </data>
+  <data name="ResEmptyBudgetGroup" xml:space="preserve">
+    <value>Bạn chưa chọn loại mục lục ngân sách</value>
+  </data>
+  <data name="ResInventoryItemCurrency" xml:space="preserve">
+    <value>Bạn chưa chọn loại tiền</value>
+  </data>
+  <data name="ResCommonCaption" xml:space="preserve">
+    <value>Thông tin chung</value>
+  </data>
+  <data name="ResContactCaption" xml:space="preserve">
+    <value>Thông tin người liên hệ</value>
+  </data>
+  <data name="ResBudgetItemCodeSame" xml:space="preserve">
+    <value>Bạn không thể chọn hai mục lục ngân sách cùng mã</value>
+  </data>
+  <data name="ResPlanTemplateListParentID" xml:space="preserve">
+    <value>Bạn không được tạo mẫu dự toán có sẵn là chính nó</value>
+  </data>
+  <data name="ResEmptyFixedAssetState" xml:space="preserve">
+    <value>Bạn chưa chọn tình trạng sử dụng</value>
+  </data>
+  <data name="ResEmptyEmployeeID" xml:space="preserve">
+    <value>Bạn chưa chọn Người sử dụng</value>
+  </data>
+  <data name="ResFixedAssetQuantityNotValid" xml:space="preserve">
+    <value>Số lượng tài sản phải lớn hơn 0</value>
+  </data>
+  <data name="ResFixedAssetUnitPriceUSDNotValid" xml:space="preserve">
+    <value>Đơn giá tài sản phải lớn hơn 300 USD</value>
+  </data>
+  <data name="ResFixedAssetAlreadyExists" xml:space="preserve">
+    <value>Mã tài sản {0} đã tồn tại, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="ResFixedAssetCategoryAlreadyExists" xml:space="preserve">
+    <value>Mã nhóm tài sản {0} đã tồn tại, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="ResUnitsInStockNotValid" xml:space="preserve">
+    <value>{0} không đủ số lượng tồn, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="ResEmptyCapitalAllocateCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã phân bổ quỹ</value>
+  </data>
+  <data name="ResEmptyCurrencyCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã</value>
+  </data>
+  <data name="ResEmptyCurrencyName" xml:space="preserve">
+    <value>Bạn chưa nhập tên</value>
+  </data>
+  <data name="ResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCode" xml:space="preserve">
+    <value>Bạn chưa chọn quỹ</value>
+  </data>
+  <data name="ResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEmptyCapitalAllocateByBudgetSourceCodeResEResEmptyCapitalAllocateByBudgetSourceCode" xml:space="preserve">
+    <value>Bạn chưa chọn quỹ</value>
+  </data>
+  <data name="ResEmptyCapitalAllocateByBudgetSourceCode" xml:space="preserve">
+    <value>Bạn chưa chọn quỹ</value>
+  </data>
+  <data name="ResPlanTemplateCaption" xml:space="preserve">
+    <value>Mẫu dự toán</value>
+  </data>
+  <data name="ResBudgetCategoryCaption" xml:space="preserve">
+    <value>Loại khoản</value>
+  </data>
+  <data name="ResBudgetSourceCaption" xml:space="preserve">
+    <value>Nguồn vốn</value>
+  </data>
+  <data name="ResMergerFundCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã quỹ sát nhập</value>
+  </data>
+  <data name="ResMergerFundName" xml:space="preserve">
+    <value>Bạn chưa nhập tên quỹ sát nhập</value>
+  </data>
+  <data name="ResResMergerFundListCaption" xml:space="preserve">
+    <value>Quỹ sát nhập</value>
+  </data>
+  <data name="ResAudittingLogCaption" xml:space="preserve">
+    <value>Nhật ký truy cập</value>
+  </data>
+  <data name="ResBudgetChaperCaption" xml:space="preserve">
+    <value>Chương</value>
+  </data>
+  <data name="ResCheckMergerFundsCode" xml:space="preserve">
+    <value>Mã quỹ xác nhập đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="ResCheckBudgetCategoriesCode" xml:space="preserve">
+    <value>Mã loại khoản đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="ResCheckBudgetChaptersCode" xml:space="preserve">
+    <value>Mã chương đã tồn tài trong hệ thống</value>
+  </data>
+  <data name="ResCheckBudgetSourcesCode" xml:space="preserve">
+    <value>Mã nguồn vốn đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="ResPaymentEstimateCaption" xml:space="preserve">
+    <value>Dự toán chi</value>
+  </data>
+  <data name="ResReceiptEstimateCaption" xml:space="preserve">
+    <value>Dự toán thu</value>
+  </data>
+  <data name="ResPlanTemplateListId" xml:space="preserve">
+    <value>Bạn chưa chọn mẫu dự toán</value>
+  </data>
+  <data name="ResPaymentDepositCaption" xml:space="preserve">
+    <value>Giấy báo nợ</value>
+  </data>
+  <data name="ResReceiptDepositCaption" xml:space="preserve">
+    <value>Giấy báo có</value>
+  </data>
+  <data name="ResPaymentVoucher" xml:space="preserve">
+    <value>Phiếu chi</value>
+  </data>
+  <data name="ResPreviousYearOfEstimateAmount" xml:space="preserve">
+    <value>Số tiền dự toán phải &gt;0</value>
+  </data>
+  <data name="ResAutonomyBudgetAmoun" xml:space="preserve">
+    <value>Kinh phí tự chủ phải lớn hơn hoặc bằng 0</value>
+  </data>
+  <data name="ResNonAutonomyBudgetAmoun" xml:space="preserve">
+    <value>Kinh phí không tự chủ phải lớn hơn hoặc bằng 0</value>
+  </data>
+  <data name="ResEstimateExchangeRate" xml:space="preserve">
+    <value>Tỷ giá không được &lt;= 0</value>
+  </data>
+  <data name="ResSalaryListCaption" xml:space="preserve">
+    <value>SHP</value>
+  </data>
+  <data name="ResAccountingObjectId" xml:space="preserve">
+    <value>Bạn chưa chọn người nhận</value>
+  </data>
+  <data name="ResCustomerId" xml:space="preserve">
+    <value>Bạn chưa chọn khách hàng</value>
+  </data>
+  <data name="ResEmployeeId" xml:space="preserve">
+    <value>Bạn chưa chọn nhân viên</value>
+  </data>
+  <data name="ResObjectId" xml:space="preserve">
+    <value>Bạn chưa chọn loại đối tượng</value>
+  </data>
+  <data name="ResVendorId" xml:space="preserve">
+    <value>Bạn chưa chọn nhà cung cấp </value>
+  </data>
+  <data name="ResRefDate" xml:space="preserve">
+    <value>Ngày chứng từ không được nhỏ hơn ngày bắt đầu hạch toán</value>
+  </data>
+  <data name="ResRefNo" xml:space="preserve">
+    <value>Bạn chưa nhập mã chứng từ</value>
+  </data>
+  <data name="ResRefNoOpeningCommitment" xml:space="preserve">
+    <value>Bạn chưa nhập số cam kết chi</value>
+  </data>
+  <data name="ResReceiptOjectCategory" xml:space="preserve">
+    <value>Bạn chưa nhập loại đối tượng</value>
+  </data>
+  <data name="ResReceiptRefNo" xml:space="preserve">
+    <value>Bạn chưa nhập số chứng từ!</value>
+  </data>
+  <data name="ResDebitAccount" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản nợ!</value>
+  </data>
+  <data name="ResBussiness" xml:space="preserve">
+    <value>Bạn chưa chọn nghiệp vụ</value>
+  </data>
+  <data name="ResCorrespondingAccountNumber" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản nợ</value>
+  </data>
+  <data name="ResMergerFundId" xml:space="preserve">
+    <value>Bạn chưa chọn mã sát nhập</value>
+  </data>
+  <data name="ResAccountCompare" xml:space="preserve">
+    <value>Tài khoản nợ không được trùng với tài khoản có</value>
+  </data>
+  <data name="ResAccountAndCorrespondingAccountNumber" xml:space="preserve">
+    <value>Bạn chọn tài khoản nợ và tài khoản có trùng nhau</value>
+  </data>
+  <data name="ResAccountNotIsDetail" xml:space="preserve">
+    <value>Không thể chọn tài khoản cha</value>
+  </data>
+  <data name="ResAccountNumberCompareMaster" xml:space="preserve">
+    <value>Tài khoản Nợ phải trùng với tài khoản quỹ</value>
+  </data>
+  <data name="ResAmountOc" xml:space="preserve">
+    <value>Số tiền phải lớn hơn 0</value>
+  </data>
+  <data name="ResTotalAmount" xml:space="preserve">
+    <value>Bạn chưa nhập chi tiết chứng từ</value>
+  </data>
+  <data name="ResReceiptVoucheraccountingObject" xml:space="preserve">
+    <value>Bạn chưa chọn đối tượng khác</value>
+  </data>
+  <data name="ResReceiptVoucheramountOc" xml:space="preserve">
+    <value>Số tiền phiếu thu phải &gt;0</value>
+  </data>
+  <data name="ResReceiptVoucherbudgetItem" xml:space="preserve">
+    <value>Bạn chưa chọn Mục/ Tiểu mục!</value>
+  </data>
+  <data name="ResReceiptVoucherbudgetSource" xml:space="preserve">
+    <value>Bạn chưa chọn nguồn vốn</value>
+  </data>
+  <data name="ResObjectCategoryDeposit" xml:space="preserve">
+    <value>Bạn chưa nhập loại đối tượng</value>
+  </data>
+  <data name="ResObjectCodeDeposit" xml:space="preserve">
+    <value>Bạn chưa nhập mã đối tượng</value>
+  </data>
+  <data name="ResReceiptVoucherAccountingOject" xml:space="preserve">
+    <value>Bạn chưa chọn mã đối tượng khác</value>
+  </data>
+  <data name="ResReceiptVoucherCustomer" xml:space="preserve">
+    <value>Bạn chưa chọn mã khách hàng</value>
+  </data>
+  <data name="ResReceiptVoucherEmployee" xml:space="preserve">
+    <value>Bạn chưa chọn mã nhân viên</value>
+  </data>
+  <data name="ResReceiptVoucherVender" xml:space="preserve">
+    <value>Bạn chưa chọn mã nhà cung cấp</value>
+  </data>
+  <data name="ResReceiptVoucherNoCaschdetail" xml:space="preserve">
+    <value>Bạn chưa nhập chi tiết phiếu thu</value>
+  </data>
+  <data name="ResReceiptVoucherNoAmountOc" xml:space="preserve">
+    <value>Bạn nhập dòng có số tiền &lt;=0</value>
+  </data>
+  <data name="ResReceiptVoucherExchangeRate" xml:space="preserve">
+    <value>Bạn chưa nhập tỉ giá</value>
+  </data>
+  <data name="ResAddNewText" xml:space="preserve">
+    <value>Thêm mới {0}</value>
+  </data>
+  <data name="ResEditText" xml:space="preserve">
+    <value>Sửa {0}</value>
+  </data>
+  <data name="ResReceiptVoucherChildCorrespondingAccountNumber" xml:space="preserve">
+    <value>Bạn phải chọn tài khoản có chi tiết hơn.</value>
+  </data>
+  <data name="ReceiptVoucherChildaccountNumber" xml:space="preserve">
+    <value>Bạn phải chọn tài khoản  có chi tiết hơn</value>
+  </data>
+  <data name="ReceiptVoucheraccountNumberEmpty" xml:space="preserve">
+    <value>Bạn đang để trống tài khoản nợ</value>
+  </data>
+  <data name="ReceiptVoucherChildCorrespondingAccountNumberEmpty" xml:space="preserve">
+    <value>Bạn đang để trống tài khoản có </value>
+  </data>
+  <data name="ResAccountNumberMaster" xml:space="preserve">
+    <value>Tài khoản quỹ không được phép là tài khoản cha</value>
+  </data>
+  <data name="ResReceiptVoucherMegerFundChildAccountNumber" xml:space="preserve">
+    <value>Bạn phải chọn  tài khoản quỹ chi tiết hơn</value>
+  </data>
+  <data name="ResReceiptVoucherMegerFund" xml:space="preserve">
+    <value>Thông báo tài khoản quỹ</value>
+  </data>
+  <data name="ResReceiptVoucherAccountNumberEmpty" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản có!</value>
+  </data>
+  <data name="ResReceiptVoucherCorrespondingAccountNumberEmpty" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản có.</value>
+  </data>
+  <data name="ResReceiptVoucherNoTotalAmountOc" xml:space="preserve">
+    <value>Bạn chưa nhập chi tiết chứng từ</value>
+  </data>
+  <data name="ResDepositObjectCategory" xml:space="preserve">
+    <value>Bạn chưa chọn loại đối tượng</value>
+  </data>
+  <data name="ResAccountNumberCompare" xml:space="preserve">
+    <value>TK ngân hàng không được trùng với tài khoản có</value>
+  </data>
+  <data name="ResAccountNumberMissing" xml:space="preserve">
+    <value>Mã tài khoản không được để trống!</value>
+  </data>
+  <data name="ResAccountNameMissing" xml:space="preserve">
+    <value>Tên tài khoản không được để trống!</value>
+  </data>
+  <data name="ResProjectCaption" xml:space="preserve">
+    <value>Dự án</value>
+  </data>
+  <data name="ResProjectCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã dự án</value>
+  </data>
+  <data name="ResProjectName" xml:space="preserve">
+    <value>Bạn chưa nhập tên dự án</value>
+  </data>
+  <data name="ResProjectNameSameAsParentError" xml:space="preserve">
+    <value>Không được chọn dự án cha là chính nó</value>
+  </data>
+  <data name="ResAccountNumberByNumberCode" xml:space="preserve">
+    <value>Bạn cần nhập tài khoản Nợ trùng với tài khoản ngân hàng</value>
+  </data>
+  <data name="ResFixedAssetIncrementCaption" xml:space="preserve">
+    <value>Ghi tăng TSCĐ</value>
+  </data>
+  <data name="ResFADepreciationCaption" xml:space="preserve">
+    <value>Hao mòn TSCĐ</value>
+  </data>
+  <data name="ResFixedAssetDecrementCaption" xml:space="preserve">
+    <value>Ghi giảm TSCĐ</value>
+  </data>
+  <data name="ResOutputInventoryCaption" xml:space="preserve">
+    <value>Xuất kho</value>
+  </data>
+  <data name="ResFArmortizationDetailFixedAssetID" xml:space="preserve">
+    <value>Bạn chưa nhập mã số tài sản cố định</value>
+  </data>
+  <data name="ResFAArmortizationDetails" xml:space="preserve">
+    <value>Bạn chưa nhập phần thông tin chi tiết</value>
+  </data>
+  <data name="ResFAArmortizationRefNo" xml:space="preserve">
+    <value>Bạn chưa nhập mã số chứng từ</value>
+  </data>
+  <data name="ResFArmortizationDetailAccountNumber" xml:space="preserve">
+    <value>Bạn chưa nhập tài khoản nợ</value>
+  </data>
+  <data name="ResFArmortizationDetailAmountOC" xml:space="preserve">
+    <value>Bạn chưa nhập số tiền</value>
+  </data>
+  <data name="ResFArmortizationDetailCorrespondingAccountNumber" xml:space="preserve">
+    <value>Bạn chưa nhập tài khoản có</value>
+  </data>
+  <data name="ResFArmortizationDetailCurrencyCode" xml:space="preserve">
+    <value>Bạn chưa nhập loại tiền</value>
+  </data>
+  <data name="ResFArmortizationDetailExchangeRate" xml:space="preserve">
+    <value>Bạn chưa nhập tỷ giá</value>
+  </data>
+  <data name="ResFArmortizationDetailQuantity" xml:space="preserve">
+    <value>Bạn chưa nhập số lượng</value>
+  </data>
+  <data name="ResGeneralVoucherCaption" xml:space="preserve">
+    <value>Chứng từ chung</value>
+  </data>
+  <data name="ResFAArmortizationEndDateOfYear" xml:space="preserve">
+    <value>Bạn chỉ được làm chứng từ khấu hao- hao mòn vào 31/12 hằng năm</value>
+  </data>
+  <data name="ResFADecrementDetailFixedAssetID" xml:space="preserve">
+    <value>Bạn chưa chọn mã tài sản cố định</value>
+  </data>
+  <data name="ResInputInventoryListCaption" xml:space="preserve">
+    <value>Chứng từ nhập kho</value>
+  </data>
+  <data name="ResSameFAArmortizationDetails" xml:space="preserve">
+    <value>Không được chọn 2 tài sản cố định giống nhau trên cùng 1 chứng từ </value>
+  </data>
+  <data name="ResEmptyFADecrementAccountNumber" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản nợ</value>
+  </data>
+  <data name="ResEmptyFADecrementCorrespondingAccountNumber" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản có</value>
+  </data>
+  <data name="ResEmptyFADecrementDetail" xml:space="preserve">
+    <value>Bạn chưa nhập phần thông tin chi tiết chứng từ</value>
+  </data>
+  <data name="ResEmptyFADecrementDetailFixedAsset" xml:space="preserve">
+    <value>Bạn chưa chọn mã TSCĐ</value>
+  </data>
+  <data name="ResFADecrementDetailQuantity" xml:space="preserve">
+    <value>Số lượng không được nhỏ hơn 0</value>
+  </data>
+  <data name="RestObjectCode" xml:space="preserve">
+    <value>Bạn chưa chọn mã đối tượng</value>
+  </data>
+  <data name="ResEmptyVoucherBudgetItemCode" xml:space="preserve">
+    <value>Bạn chưa chọn Mục/Tiểu mục</value>
+  </data>
+  <data name="ResEmptyVoucherBudgetSourceCode" xml:space="preserve">
+    <value>Bạn chưa chọn nguồn vốn</value>
+  </data>
+  <data name="ResQuantityEnd" xml:space="preserve">
+    <value>Bạn phải nhập số lượng nhỏ hơn số lượng tồn kho</value>
+  </data>
+  <data name="ResStockId" xml:space="preserve">
+    <value>Bạn chưa chọn kho!</value>
+  </data>
+  <data name="ResGeneralVouchersCapitalAllocateCaption" xml:space="preserve">
+    <value>Chứng từ phân bổ quỹ</value>
+  </data>
+  <data name="ResTransferVoucherCaption" xml:space="preserve">
+    <value>Kết chuyển chứng từ cuối năm</value>
+  </data>
+  <data name="ResFixedAssetCurrencyFixedAssetCurrency" xml:space="preserve">
+    <value>Bạn chưa nhập loại tiền tệ</value>
+  </data>
+  <data name="ResFixedAssetCurrencyExchangeRateLessOne" xml:space="preserve">
+    <value>Loại tiền khác đô la mỹ thì tỉ giá phải khác 1</value>
+  </data>
+  <data name="ResFixedAssetCurrencyUnitPrice" xml:space="preserve">
+    <value>Đơn giá phải lớn hơn 0</value>
+  </data>
+  <data name="ResOpeningAccountEntry" xml:space="preserve">
+    <value>Số dư tài khoản</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailBudgetCategoryCode" xml:space="preserve">
+    <value>Bạn chưa nhập loại khoản</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailBudgetChapterCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã chương</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailBudgetSourceCode" xml:space="preserve">
+    <value>Bạn chưa  nhập mã nguồn ngân sách</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailBudgetGroupItemCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã nhóm</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailBudgetItemCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã mục- tiểu mục</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailAccountingObjectId" xml:space="preserve">
+    <value>Bạn chưa nhập đối tượng khách</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailCustomerId" xml:space="preserve">
+    <value>Bạn chưa nhập khách hàng</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailEmployeeId" xml:space="preserve">
+    <value>Bạn chưa nhập nhân viên</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailMergerFundId" xml:space="preserve">
+    <value>Bạn chưa nhập quỹ sát nhập</value>
+  </data>
+  <data name="ResOpeningAccountEntryDetailVendorId" xml:space="preserve">
+    <value>Bạn chưa nhập nhà cung cấp</value>
+  </data>
+  <data name="ResOpeningAccountEntryListIsPostToParentAccount" xml:space="preserve">
+    <value>Hệ thống không cho phép nhập đầu kỳ lên tài khoản tổng hợp</value>
+  </data>
+  <data name="ResLookCapitalAccount" xml:space="preserve">
+    <value>Bạn chưa  nhập tài khoản tiền nguồn</value>
+  </data>
+  <data name="ResFixedAssetIncrement" xml:space="preserve">
+    <value>Tài sản đã được ghi tăng, bạn có thể xem chứng từ tại chứng từ ghi tăng TSCĐ số chứng từ là  {0}</value>
+  </data>
+  <data name="ResOpeningAccountEntryOpeningAccountEntryDetail" xml:space="preserve">
+    <value>Bạn chưa nhập danh sách số dư đầu kỳ chi tiết</value>
+  </data>
+  <data name="ResOpeningAccountEntryIsParent" xml:space="preserve">
+    <value>Bạn đang nhập số dư đầu kỳ cho TK cha, bạn có muốn tiếp tục không?" </value>
+  </data>
+  <data name="ResSaveIcrementDataError" xml:space="preserve">
+    <value>Tài sản đã được thêm mới vào danh mục tài sản cố định nhưng chưa được ghi tăng</value>
+  </data>
+  <data name="ResAllFixedAssetDecrement" xml:space="preserve">
+    <value>Tài sản {0} đã ghi giảm hết</value>
+  </data>
+  <data name="ResFixedAssetDecrement" xml:space="preserve">
+    <value>Tài sản đã được ghi giảm bạn có thể xem chứng từ tại chứng từ ghi giảmTSCĐ số chứng từ là  {0}</value>
+  </data>
+  <data name="ResNoFixedAssetIncrement" xml:space="preserve">
+    <value>Tài sản {0} chưa được ghi tăng hoặc chưa được ghi đầu kỳ.</value>
+  </data>
+  <data name="ResFixedAssetQuantityDefault" xml:space="preserve">
+    <value>Tài sản mua với hai loại tiền chỉ được phép nhập số lượng là 1</value>
+  </data>
+  <data name="ResCheckFixedAssetDecrementQuantity" xml:space="preserve">
+    <value>Bạn không thể ghi giảm quá số lượng còn lại của tài sản {0} là {1}</value>
+  </data>
+  <data name="ResUserProfileCaption" xml:space="preserve">
+    <value>Quản lý người dùng</value>
+  </data>
+  <data name="ResLoginFailded" xml:space="preserve">
+    <value>Đăng nhập không thành công</value>
+  </data>
+  <data name="ResFixedAssetOrgUSD" xml:space="preserve">
+    <value>Giá trị của tài sản phải lớn hơn 300 USD</value>
+  </data>
+  <data name="ResDatabasePath" xml:space="preserve">
+    <value>Bạn phải chọn đường dẫn cơ sở dữ liệu</value>
+  </data>
+  <data name="ResCompanyCode" xml:space="preserve">
+    <value>Bạn chưa chọn đơn vị</value>
+  </data>
+  <data name="ResDatabaseExit" xml:space="preserve">
+    <value>Cơ sở dữ liệu đã tồn tại trong hệ thống. Vui lòng nhập lại tên cơ sở dữ liệu !</value>
+  </data>
+  <data name="ResDatabaseTempNotExist" xml:space="preserve">
+    <value>Đường dẫn cơ sở dữ liệu mẫu không tồn tại</value>
+  </data>
+  <data name="ResCreateDBSucces" xml:space="preserve">
+    <value>Tạo mới cơ sở dữ liệu thành công. Chọn "Đồng ý" để đăng nhập vào hệ thống</value>
+  </data>
+  <data name="ResDatabaseNotExist" xml:space="preserve">
+    <value>Cở sở dữ liệu không tồn tại. Vui lòng tạo mới cơ sở dữ liệu !</value>
+  </data>
+  <data name="ResPostedDateLessSysemDate" xml:space="preserve">
+    <value>Ngày hạch toán không được phép nhỏ hơn ngày bắt đầu hạch toán</value>
+  </data>
+  <data name="ResEmployeeLeasingCaption" xml:space="preserve">
+    <value>Danh sách nhân viên nằm ngoài CQĐD</value>
+  </data>
+  <data name="EmployeeLeasingName" xml:space="preserve">
+    <value>Bạn chưa nhập tên nhân viên</value>
+  </data>
+  <data name="ResEmployeeLeasingCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã nhân viên</value>
+  </data>
+  <data name="ResEmployeeContractCaption" xml:space="preserve">
+    <value>Danh sách nhân viên đi thuê, hợp đồng</value>
+  </data>
+  <data name="ResBuildingCaption" xml:space="preserve">
+    <value>Danh sách nhà thuê</value>
+  </data>
+  <data name="ReBuildingName" xml:space="preserve">
+    <value>Bạn chưa nhập tên nhà thuê</value>
+  </data>
+  <data name="ResOpenFixedAssetEdit" xml:space="preserve">
+    <value>Bạn vừa thay đổi thông tin số dư đầu kỳ tài sản </value>
+  </data>
+  <data name="ResOpenFixedAssetNew" xml:space="preserve">
+    <value>Bạn đã thêm số dư đầu kỳ tài sản </value>
+  </data>
+  <data name="ResDeleteFixedAssetIncrement" xml:space="preserve">
+    <value>Tài sản đã phát sinh chứng từ ghi giảm không được xóa chứng từ ghi tăng!</value>
+  </data>
+  <data name="ResDoubleFixedAssetDecrement" xml:space="preserve">
+    <value>Tài sản đã được ghi giảm và được lập thành 2 chứng từ theo tiền USD và tiền Địa phương. Bạn có thể xem chứng từ tại chứng từ ghi giảmTSCĐ số chứng từ là  {0}</value>
+  </data>
+  <data name="ResInstanceNameCaption" xml:space="preserve">
+    <value>&lt;b&gt;Máy chủ&lt;/b&gt;: </value>
+  </data>
+  <data name="ResUserNameCaption" xml:space="preserve">
+    <value>&lt;b&gt;Người dùng&lt;/b&gt;: </value>
+  </data>
+  <data name="ResEmptyFixedAssetCurrenciesNull" xml:space="preserve">
+    <value>Bạn cần cập nhật chi tiết thông tin tài sản.!</value>
+  </data>
+  <data name="ResFixedAssetCurrenciesFalse" xml:space="preserve">
+    <value>Bạn chỉ được nhập 2 loại tiền: tiền hoạch toán và tiền quy đổi.!</value>
+  </data>
+  <data name="ResEmptyVoucherProjectID" xml:space="preserve">
+    <value>Bạn chưa chọn dự án</value>
+  </data>
+  <data name="ResLicenseExtendFile" xml:space="preserve">
+    <value>License Files (.lic)|*.lic|All Files (*.*)|*.*</value>
+  </data>
+  <data name="ResLicenseTitle" xml:space="preserve">
+    <value>Chọn file bản quyền</value>
+  </data>
+  <data name="ResReceiptDocumentInclude" xml:space="preserve">
+    <value>Bạn chưa nhập chứng từ kèm theo</value>
+  </data>
+  <data name="NotEqual" xml:space="preserve">
+    <value>không bằng</value>
+  </data>
+  <data name="ResFollowBudgetSource" xml:space="preserve">
+    <value>theo nguồn </value>
+  </data>
+  <data name="ResNoticeNotRecords" xml:space="preserve">
+    <value>Không có bản ghi nào!.</value>
+  </data>
+  <data name="ResNoticeReceiptEstimate" xml:space="preserve">
+    <value>liên quan đến tiền. Bạn có thể nhập ở giấy báo có.\n Bạn có muốn nhập ở đây không?</value>
+  </data>
+  <data name="ResReAccountTranfer" xml:space="preserve">
+    <value>Bạn có muốn kết chuyển lại không?</value>
+  </data>
+  <data name="ResSetAccountNumber" xml:space="preserve">
+    <value>Định khoản tài khoản nợ</value>
+  </data>
+  <data name="ResSetCorrespondingAccountNumber" xml:space="preserve">
+    <value>Định khoản tài khoản có</value>
+  </data>
+  <data name="ResTotalAmountAccountTranfer" xml:space="preserve">
+    <value>Tổng số tiền kết chuyển tài khoản</value>
+  </data>
+  <data name="ResVoucherDetail" xml:space="preserve">
+    <value>Bạn chưa nhập đầy đủ chi tiết các chứng từ</value>
+  </data>
+  <data name="RetNoticePayVoucher" xml:space="preserve">
+    <value>liên quan đến tiền. Bạn có thể nhập ở phiếu chi.\n Bạn có muốn nhập ở đây không?</value>
+  </data>
+  <data name="RetNoticeReceiptDeposit" xml:space="preserve">
+    <value>liên quan đến tiền. Bạn có thể nhập ở giấy báo nợ.\n Bạn có muốn nhập ở đây không?</value>
+  </data>
+  <data name="RetNoticeReceiptVoucher" xml:space="preserve">
+    <value>liên quan đến tiền. Bạn có thể nhập ở phiếu thu.\n Bạn có muốn nhập ở đây không?</value>
+  </data>
+  <data name="ResChildAccountNumber" xml:space="preserve">
+    <value>Bạn phải chọn tài khoản nợ chi tiết hơn!.</value>
+  </data>
+  <data name="ResChildAccountNumberOrCorrpondingAccountNumber" xml:space="preserve">
+    <value>Bạn phải chọn ít nhất  tài khoản nợ hoặc tài khoản có!.</value>
+  </data>
+  <data name="ResCustomerFollowAccount" xml:space="preserve">
+    <value>Bạn chưa chọn khách hàng theo tài khoản đã chọn!.</value>
+  </data>
+  <data name="ResEmployeeFollowAccount" xml:space="preserve">
+    <value>Bạn chưa chọn nhân viên theo tài khoản đã chọn!.</value>
+  </data>
+  <data name="ResInventoryItemFollowAccount" xml:space="preserve">
+    <value>Bạn chưa chọn nguyên liệu, vật liệu - công cụ dụng cụ theo tài khoản đã chọn!.</value>
+  </data>
+  <data name="RestRateMoney" xml:space="preserve">
+    <value>Bạn phải nhập tỷ giá &gt;=0</value>
+  </data>
+  <data name="ResVendorFollowAccount" xml:space="preserve">
+    <value>Bạn chưa chọn nhà cung cấp theo tài khoản đã chọn!.</value>
+  </data>
+  <data name="ResAccountNumberSameFund" xml:space="preserve">
+    <value>Tài khoản nợ không trùng với tài khoản quỹ</value>
+  </data>
+  <data name="ResChildCorrespondingAccountNumber" xml:space="preserve">
+    <value>Bạn phải nhập tài khoản có chi tiết hơn!.</value>
+  </data>
+  <data name="ResCheckZeroDecrementQuantity" xml:space="preserve">
+    <value>Bạn chưa nhập số lượng tài sản cần ghi giảm!</value>
+  </data>
+  <data name="ResCheckExchangeRate" xml:space="preserve">
+    <value>Bạn phải nhập tỷ giá khác 1</value>
+  </data>
+  <data name="ResUserProfileSameUserName" xml:space="preserve">
+    <value>Bạn không thể xóa tài khoản của chính mình</value>
+  </data>
+  <data name="ResBudgetSourceCategory" xml:space="preserve">
+    <value>Loại nguồn vốn</value>
+  </data>
+  <data name="ResEmptyBudgetSourceCategoryID" xml:space="preserve">
+    <value>Bạn chưa chọn loại nguồn vốn!</value>
+  </data>
+  <data name="ResBackupFileCaption" xml:space="preserve">
+    <value>Bạn chưa chọn đường dẫn lưu cơ sở dữ liệu</value>
+  </data>
+  <data name="ResBackupDatabaseName" xml:space="preserve">
+    <value>Bạn chưa nhập tên tệp tin cơ sở dữ liệu</value>
+  </data>
+  <data name="ResBackupSucess" xml:space="preserve">
+    <value>Sao lưu cơ sở dữ liệu thành công !</value>
+  </data>
+  <data name="ResFileBackupExits" xml:space="preserve">
+    <value>Tệp tin sao lưu đã tồn tại. Bạn vui lòng nhập lại tên khác !</value>
+  </data>
+  <data name="ResRestoreDbSucess" xml:space="preserve">
+    <value>Phục hồi cơ sở dữ liệu thành công!. </value>
+  </data>
+  <data name="ResDeleteDatabaseSucess" xml:space="preserve">
+    <value>Xóa cơ sở dữ liệu thành công !</value>
+  </data>
+  <data name="ResReCaptitalAllocateVoucher" xml:space="preserve">
+    <value>Bạn có muốn phân bổ lại chứng từ không?</value>
+  </data>
+  <data name="ResCorrespondingAccountNumbers" xml:space="preserve">
+    <value>Bạn vừa lựa chọn tk nợ là tài khoản nguồn 6612</value>
+  </data>
+  <data name="ResFileScriptNotExit" xml:space="preserve">
+    <value>Tệp tin cập nhật cơ sở dữ liệu không tồn tại</value>
+  </data>
+  <data name="ResUpdateDatabaseSucces" xml:space="preserve">
+    <value>Cập nhật cơ sở dữ liệu thành công ! Chọn "Đồng ý" để khởi động lại hệ thống</value>
+  </data>
+  <data name="ResNotChooseDatabase" xml:space="preserve">
+    <value>Bạn chưa chọn cơ sở dữ liệu để cập nhật !</value>
+  </data>
+  <data name="ResDeleteFixedAsset" xml:space="preserve">
+    <value>Tài sản đã phát sinh chứng từ không được xóa.</value>
+  </data>
+  <data name="ResEmptyFADecrementDetailInfo" xml:space="preserve">
+    <value>Tài khoản {0} chi tiết theo {1}. Bạn phải chọn {2}</value>
+  </data>
+  <data name="ResPasswordNotSameRePassword" xml:space="preserve">
+    <value>Mật khẩu không trùng khớp</value>
+  </data>
+  <data name="ResChangePasswordSucces" xml:space="preserve">
+    <value>Đổi mật khẩu thành công</value>
+  </data>
+  <data name="ResChangePasswordNotSucces" xml:space="preserve">
+    <value>Đổi mật khẩu không thành công</value>
+  </data>
+  <data name="ResCheckOrgPrice" xml:space="preserve">
+    <value>Giá trị nguyên giá phải bằng hao mòn cộng với giá trị còn lại!</value>
+  </data>
+  <data name="ResCheckOrgPriceUSD" xml:space="preserve">
+    <value>Giá trị nguyên giá quy đổi phải bằng hao mòn quy đổi cộng với giá trị còn lại quy đổi!</value>
+  </data>
+  <data name="ResAccountOpenFixedAsset" xml:space="preserve">
+    <value>Hệ thống không cho phép nhập hay sửa Số dư đầu kỳ cho tài khoản {0} ở đây. Bạn phải nhập hay sửa tại menu Danh mục\Tài sản cố định</value>
+  </data>
+  <data name="ResCompanyProfileFormCaption" xml:space="preserve">
+    <value>Cập nhật Hồ sơ cơ bản</value>
+  </data>
+  <data name="ResCheckExchangeRate0" xml:space="preserve">
+    <value>Tỉ giá phải khác 0</value>
+  </data>
+  <data name="ResCheckCurrencyCode" xml:space="preserve">
+    <value>Mã tiền tệ không được để trống!</value>
+  </data>
+  <data name="ResFixedAssetCurrency" xml:space="preserve">
+    <value>Loại tiền tệ không được để trống!</value>
+  </data>
+  <data name="RetCalculateInventoryItem" xml:space="preserve">
+    <value>Bạn có muốn tính giá xuất kho </value>
+  </data>
+  <data name="RetCalcPeroid" xml:space="preserve">
+    <value>Kỳ tính giá</value>
+  </data>
+  <data name="RetCalcPeroidReCalcPrinceInventoryItem" xml:space="preserve">
+    <value>Kỳ này đã tính giá. Bạn có muốn tính giá lại hay không?? ,Kỳ tính giá</value>
+  </data>
+  <data name="RetNoCalcVoucherTypeOutputInventoryItem" xml:space="preserve">
+    <value>Chưa có nghiệp vụ xuất kho trong kỳ tính giá này!</value>
+  </data>
+  <data name="RetNoSelectInventoryItem" xml:space="preserve">
+    <value>Bạn chưa chọn kho!</value>
+  </data>
+  <data name="RetNoSeletedCurrency" xml:space="preserve">
+    <value>Bạn chưa chọn loại tiền!</value>
+  </data>
+  <data name="RetNoSeletedTimeCalc" xml:space="preserve">
+    <value>Bạn chưa chọn ngày tính giá!</value>
+  </data>
+  <data name="ResCheckOrgPrice0" xml:space="preserve">
+    <value>Tài sản phải có giá trị nguyên giá lớn hơn 0!</value>
+  </data>
+  <data name="ResProjectFollowAccount" xml:space="preserve">
+    <value>Bạn chưa chọn dự án.</value>
+  </data>
+  <data name="ResProjectFollowCorrespondinAccount" xml:space="preserve">
+    <value>Bạn chưa chọn dự án.</value>
+  </data>
+  <data name="Fisnish" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="ResMonthText" xml:space="preserve">
+    <value>Tháng </value>
+  </data>
+  <data name="ResCorrespondingAccountNumberCompareMaster" xml:space="preserve">
+    <value>Tài khoản Có phải trùng với tài khoản quỹ</value>
+  </data>
+  <data name="ResCorrespondingAccountNumberCompareBankAccountMaster" xml:space="preserve">
+    <value>Tài khoản Có phải trùng với tài khoản ngân hàng</value>
+  </data>
+  <data name="ResDetaiVoucherNotValid" xml:space="preserve">
+    <value>Dữ liệu phần chi tiết chứng từ chưa hợp lệ hoặc chưa đầy đủ các thông tin bắt buộc phải nhập! Vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="ResBackupFileFilter" xml:space="preserve">
+    <value>Backup Files (.bak)|*.bak|All Files (*.*)|*.*</value>
+  </data>
+  <data name="ResFixedAssetUnitPriceUSD" xml:space="preserve">
+    <value>Đơn giá phải có giá trị lớn hơn 300USD</value>
+  </data>
+  <data name="ResDocummentInclude" xml:space="preserve">
+    <value>Bạn chưa nhập chưng từ đi kèm !.</value>
+  </data>
+  <data name="ResDiffereneCurrencyCode" xml:space="preserve">
+    <value>Tài khoản {0} theo dõi theo loại tiền {1}. Bạn phải chọn tài khoản khác theo dõi theo loại tiền {2}</value>
+  </data>
+  <data name="ResVersion" xml:space="preserve">
+    <value>Phiên bản bạn đang dùng không đồng bộ với cơ sở dữ liệu. </value>
+  </data>
+  <data name="ResSuccessfullCaption" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="ResAccountCategoryNameRequired" xml:space="preserve">
+    <value>Tên nhóm tài khoản không được bỏ trống</value>
+  </data>
+  <data name="ResInventoryItemCategoryId" xml:space="preserve">
+    <value>Mã nhóm nguyên liệu, vật liệu, hàng hóa không được để trống</value>
+  </data>
+  <data name="ResEmployeeTypeCaption" xml:space="preserve">
+    <value>Loại cán bộ</value>
+  </data>
+  <data name="ResDepartmentCodeDuplicate" xml:space="preserve">
+    <value>Mã phòng ban đã tồn tại!</value>
+  </data>
+  <data name="ResDepartmentCodeE" xml:space="preserve">
+    <value>Mã phòng ban không được để trống!</value>
+  </data>
+  <data name="ResDepartmentNameE" xml:space="preserve">
+    <value>Tên phòng ban không được để trống!</value>
+  </data>
+  <data name="ResEmployeeTypeCodeDuplicateE" xml:space="preserve">
+    <value>Mã loại cán bộ {0} đã tồn tại!</value>
+  </data>
+  <data name="ResEmployeeTypeCodeRequired" xml:space="preserve">
+    <value>Mã loại cán bộ không được để trống!</value>
+  </data>
+  <data name="ResEmployeeTypeNameRequired" xml:space="preserve">
+    <value>Tên loại cán bộ không được để trống!</value>
+  </data>
+  <data name="ResAccountingObjectCategory" xml:space="preserve">
+    <value>Bạn chưa chọn loại đối tượng</value>
+  </data>
+  <data name="ResAccountTransferCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã kết chuyển</value>
+  </data>
+  <data name="ResFromAccount" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản kết chuyển từ</value>
+  </data>
+  <data name="ResToAccount" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản kết chuyển đến</value>
+  </data>
+  <data name="ResEmptyBudgetKindItemCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã loại khoản</value>
+  </data>
+  <data name="ResEmptyBudgetKindItemName" xml:space="preserve">
+    <value>Bạn chưa nhập tên loại khoản</value>
+  </data>
+  <data name="ResEmptyAutoBusinessCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã định khoản tự động</value>
+  </data>
+  <data name="ResEmptyAutoBusinessName" xml:space="preserve">
+    <value>Bạn chưa nhập tên định khoản tự động</value>
+  </data>
+  <data name="ResEmptyRefType" xml:space="preserve">
+    <value>Bạn chưa chọn loại chứng từ</value>
+  </data>
+  <data name="ResBudgetKindItemCaption" xml:space="preserve">
+    <value>Loại khoản</value>
+  </data>
+  <data name="ResEmptyVoucherListCode" xml:space="preserve">
+    <value>Bạn chưa nhập số chứng từ ghi sổ</value>
+  </data>
+  <data name="ResEmptyVoucherListName" xml:space="preserve">
+    <value>Bạn chưa nhập tên chứng từ ghi sổ</value>
+  </data>
+  <data name="ResToolCaption" xml:space="preserve">
+    <value>Công cụ, dụng cụ</value>
+  </data>
+  <data name="ResSubProjectCaption" xml:space="preserve">
+    <value>Hạng mục công trình</value>
+  </data>
+  <data name="ResTargetProgramCaption" xml:space="preserve">
+    <value>Chương trình mục tiêu</value>
+  </data>
+  <data name="ResFundStructureCaption" xml:space="preserve">
+    <value>Khoản chi</value>
+  </data>
+  <data name="ResAllProjectCaption" xml:space="preserve">
+    <value>Tất cả CTMT, Dự án</value>
+  </data>
+  <data name="ResSubProjectCode" xml:space="preserve">
+    <value>Mã HMCT không được để trống</value>
+  </data>
+  <data name="ResSubProjectName" xml:space="preserve">
+    <value>Tên HMCT không được để trống</value>
+  </data>
+  <data name="ResTargetProgramCode" xml:space="preserve">
+    <value>Mã CTMT không được để trống</value>
+  </data>
+  <data name="ResTargetProgramName" xml:space="preserve">
+    <value>Tên CTMT không được để trống</value>
+  </data>
+  <data name="ResrefTypeCaption" xml:space="preserve">
+    <value>Tài khoản ngầm định</value>
+  </data>
+  <data name="ResFundStructureCode" xml:space="preserve">
+    <value>Mã khoản chi không được để trống</value>
+  </data>
+  <data name="ResFundStructureName" xml:space="preserve">
+    <value>Tên khoản chi không được để trống</value>
+  </data>
+  <data name="ResAutoBusinessCaption" xml:space="preserve">
+    <value>Định khoản tự động</value>
+  </data>
+  <data name="ResActivityCode" xml:space="preserve">
+    <value>Mã công việc không được để trống</value>
+  </data>
+  <data name="ResActivityName" xml:space="preserve">
+    <value>Tên công việc không được để trống</value>
+  </data>
+  <data name="ResAccountingObjectCategoryID" xml:space="preserve">
+    <value>Chưa chọn loại đối tượng</value>
+  </data>
+  <data name="ResDepartmentCodeDuplicateE" xml:space="preserve">
+    <value>Mã phòng ban {0} đã tồn tại!</value>
+  </data>
+  <data name="ResPurchasePurposeCode" xml:space="preserve">
+    <value>Mã nhóm hàng hóa dịch vụ không được để trống</value>
+  </data>
+  <data name="ResPurchasePurposeName" xml:space="preserve">
+    <value>Tên nhóm hàng hóa dịch vụ không được để trống</value>
+  </data>
+  <data name="RespurchasePurposeCaption" xml:space="preserve">
+    <value>Nhóm hàng hóa dịch vụ</value>
+  </data>
+  <data name="ResInvoiceFormNumberCaption" xml:space="preserve">
+    <value>Mẫu số hóa đơn</value>
+  </data>
+  <data name="ResPurchasePurposeCodeDuplicate" xml:space="preserve">
+    <value>Mã nhóm hàng hóa dịch vụ đã tồn tại!</value>
+  </data>
+  <data name="ResEmptyInvoiceFormNumberCategory" xml:space="preserve">
+    <value>Bạn chưa chọn loại hóa đơn!</value>
+  </data>
+  <data name="ResEmptyInvoiceFormNumberCode" xml:space="preserve">
+    <value>Bạn chưa nhập mẫu số hóa đơn!</value>
+  </data>
+  <data name="ResEmptyInvoiceFormNumberName" xml:space="preserve">
+    <value>Bạn chưa nhập tên mẫu hóa đơn!</value>
+  </data>
+  <data name="ResAccountingObjectCodeEmployeeDuplicate" xml:space="preserve">
+    <value>Mã cán bộ {0} đã tồn tại!</value>
+  </data>
+  <data name="ResActivity" xml:space="preserve">
+    <value>Công việc</value>
+  </data>
+  <data name="ResActivityCodeDuplicate" xml:space="preserve">
+    <value>Mã công việc {0} đã tồn tại!</value>
+  </data>
+  <data name="ResBankCodeDuplicate" xml:space="preserve">
+    <value>Số tài khoản {0} đã tồn tại!</value>
+  </data>
+  <data name="ResProjectCodeDuplicate" xml:space="preserve">
+    <value>Mã dự án đã tồn tại!</value>
+  </data>
+  <data name="ResSubPorjectDuplicate" xml:space="preserve">
+    <value>Mã HMCT đã tồn tại!</value>
+  </data>
+  <data name="ResTargetProgramDuplicate" xml:space="preserve">
+    <value>Mã CTMT {0} đã tồn tại!</value>
+  </data>
+  <data name="ResAccountingObjectCodeDuplicate" xml:space="preserve">
+    <value>Mã đối tượng {0} đã tồn tại!</value>
+  </data>
+  <data name="ResCAPaymentTreasuryCaption" xml:space="preserve">
+    <value>Phiếu chi nộp tiền vào NH, KB</value>
+  </data>
+  <data name="ResCashReceiptEstimateCaption" xml:space="preserve">
+    <value>Phiếu thu từ ngân sách nhà nước</value>
+  </data>
+  <data name="ResSubProjectDuplicate" xml:space="preserve">
+    <value>Mã HMCT {0} đã tồn tại!</value>
+  </data>
+  <data name="ResCashReceiptTreasuriesCaption" xml:space="preserve">
+    <value>Phiếu thu rút tiền gửi NH-KB</value>
+  </data>
+  <data name="ResRefNoCAReceiptDuplicate" xml:space="preserve">
+    <value>Số phiếu thu {0} đã tồn tại!</value>
+  </data>
+  <data name="ResBABankTransfersCaption" xml:space="preserve">
+    <value>Chuyển tiền nội bộ</value>
+  </data>
+  <data name="ResBADepositCaption" xml:space="preserve">
+    <value>Thu tiền gửi</value>
+  </data>
+  <data name="ResBAWithDrawsCaption" xml:space="preserve">
+    <value>Chi tiền gửi</value>
+  </data>
+  <data name="ResCAPaymentInwardCaption" xml:space="preserve">
+    <value>Nhập kho</value>
+  </data>
+  <data name="ResInwardRefNo" xml:space="preserve">
+    <value>Số phiếu nhập kho không được để trống</value>
+  </data>
+  <data name="ResReceiptExistRefNo" xml:space="preserve">
+    <value>Mã xuất kho {0} đã tồn tại!</value>
+  </data>
+  <data name="ResSUIncrementCaption" xml:space="preserve">
+    <value>Ghi tăng công cụ dụng cụ</value>
+  </data>
+  <data name="ResCAPaymentCaption" xml:space="preserve">
+    <value>Phiếu chi</value>
+  </data>
+  <data name="ResSUDecrementCaption" xml:space="preserve">
+    <value>Ghi giảm công cụ dụng cụ</value>
+  </data>
+  <data name="ResINInwardCaption" xml:space="preserve">
+    <value>Phiếu nhập kho chưa thanh toán</value>
+  </data>
+  <data name="ResDateCompare" xml:space="preserve">
+    <value>Ngày kết thúc không được phép nhỏ hơn hoặc bằng ngày bắt đầu dự án</value>
+  </data>
+  <data name="ResAmountValid" xml:space="preserve">
+    <value>Bạn chưa nhập số tiền</value>
+  </data>
+  <data name="ResCreditValid" xml:space="preserve">
+    <value>Bạn chưa nhập TK Có</value>
+  </data>
+  <data name="ResDebitValid" xml:space="preserve">
+    <value>Bạn chưa nhập TK Nợ</value>
+  </data>
+  <data name="ResDebitAccountRequired" xml:space="preserve">
+    <value>Bạn chưa nhập Tài khoản nợ!</value>
+  </data>
+  <data name="ResDepartmentIdRequired" xml:space="preserve">
+    <value>Bạn chưa nhập Mã phòng ban!</value>
+  </data>
+  <data name="ResInventoryItemIdRequired" xml:space="preserve">
+    <value>Bạn chưa nhập Mã CCDC!</value>
+  </data>
+  <data name="ResCAPaymentFixedAssetCaption" xml:space="preserve">
+    <value>Chứng từ ghi tăng TSCĐ</value>
+  </data>
+  <data name="ResSUTransferCaption" xml:space="preserve">
+    <value>Điều chuyển công cụ dụng cụ</value>
+  </data>
+  <data name="ResFADecrementCaption" xml:space="preserve">
+    <value>Ghi giảm TSCĐ</value>
+  </data>
+  <data name="ResFAIncrementsCaption" xml:space="preserve">
+    <value>Ghi tăng tài sản cố định</value>
+  </data>
+  <data name="ResFixedAssetIdRequired" xml:space="preserve">
+    <value>Mã tài sản không được để trống!</value>
+  </data>
+  <data name="ResIncrementRefNo" xml:space="preserve">
+    <value>Số chứng từ ghi tăng không được để trống!</value>
+  </data>
+  <data name="ResBUPlanWithDrawDepositCaption" xml:space="preserve">
+    <value>Rút dự toán tiền gửi</value>
+  </data>
+  <data name="ResBUPlanWithDrawTransferCaption" xml:space="preserve">
+    <value>Rút dự toán chuyển khoản</value>
+  </data>
+  <data name="ResAccountingObjectIdRequired" xml:space="preserve">
+    <value>Đối tượng không được để trống!</value>
+  </data>
+  <data name="ResActivityIdRequired" xml:space="preserve">
+    <value>công việc không được để trống!</value>
+  </data>
+  <data name="ResBudgetChapterCodeRequired" xml:space="preserve">
+    <value>Bạn chưa chọn mã Chương!</value>
+  </data>
+  <data name="ResBudgetItemCodeRequired" xml:space="preserve">
+    <value>Mục không được để trống!</value>
+  </data>
+  <data name="ResBudgetKindItemCodeRequired" xml:space="preserve">
+    <value>Loại không được để trống!</value>
+  </data>
+  <data name="ResBudgetSourceCodeRequired" xml:space="preserve">
+    <value>Nguồn vốn không được để trống!</value>
+  </data>
+  <data name="ResBudgetSubItemCodeRequired" xml:space="preserve">
+    <value>Tiểu mục không được để trống!</value>
+  </data>
+  <data name="ResMethodDistributeIdRequired" xml:space="preserve">
+    <value>Hình thức cấp phát không được để trống!</value>
+  </data>
+  <data name="ResProjectIdRequired" xml:space="preserve">
+    <value>CTMT, dự án không được để trống!</value>
+  </data>
+  <data name="ResBUPlanWithdrawCashCaption" xml:space="preserve">
+    <value>Rút dự toán tiền mặt</value>
+  </data>
+  <data name="ResTargetProgramId" xml:space="preserve">
+    <value>Chương trình mục tiêu không được bỏ trống</value>
+  </data>
+  <data name="ResBankId" xml:space="preserve">
+    <value>Tài khoản ngân hàng không được bỏ trống</value>
+  </data>
+  <data name="ResBankIdRequired" xml:space="preserve">
+    <value>Tài khoản ngân hàng, kho bạc không được để trống!</value>
+  </data>
+  <data name="ResBudgetSubKindItemCodeRequired" xml:space="preserve">
+    <value>Khoản không được để trống!</value>
+  </data>
+  <data name="ResFundStructureIdRequired" xml:space="preserve">
+    <value>Nhóm mục chi không được để trống!</value>
+  </data>
+  <data name="ResDeleteTreeHasChildFundStructure" xml:space="preserve">
+    <value>Bạn phải xóa tất cả các khoản chi con trước khi xóa khoản chi cha !</value>
+  </data>
+  <data name="ResDeleteTreeHasChildProject" xml:space="preserve">
+    <value>Bạn phải xóa tất cả các dự án con trước khi xóa dự án cha!</value>
+  </data>
+  <data name="ResDeleteTreeHasChildSubProject" xml:space="preserve">
+    <value>Bạn phải xóa tất cả các HMCT con trước khi xóa HMCT cha!</value>
+  </data>
+  <data name="ResDeleteTreeHasChildTargetProgram" xml:space="preserve">
+    <value>Bạn phải xóa tất cả các CTMT con trước khi xóa CTMT cha!</value>
+  </data>
+  <data name="ResRefNoBankTranferDuplicate" xml:space="preserve">
+    <value>Số chứng từ {0} đã tồn tại !</value>
+  </data>
+  <data name="ResDeleteDepartmentHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa phòng ban cha!</value>
+  </data>
+  <data name="ResNotValidToDate" xml:space="preserve">
+    <value>Ngày kết thúc không được nhỏ hơn Ngày bắt đầu!</value>
+  </data>
+  <data name="ResDeleteBudgetSourceHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa nguồn vốn cha!</value>
+  </data>
+  <data name="ResDeleteBudgetItemHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa Nhóm/Mục cha!</value>
+  </data>
+  <data name="ResDeleteBudgetKindItemHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa loại khoản cha!</value>
+  </data>
+  <data name="ResBAWithDrawFixedAsset" xml:space="preserve">
+    <value>Mua TSCĐ bằng tiền gửi</value>
+  </data>
+  <data name="ResBAWithDrawPurchasesCaption" xml:space="preserve">
+    <value>Nhập mua bằng tiền gửi</value>
+  </data>
+  <data name="ResOpeningAccountEntB" xml:space="preserve">
+    <value>Số dư tài khoản</value>
+  </data>
+  <data name="ResbarButtonBUCommitmentRequestCaption" xml:space="preserve">
+    <value>Đề nghị cam kết chi</value>
+  </data>
+  <data name="ResAmountRequired" xml:space="preserve">
+    <value>Số tiền không được để trống!</value>
+  </data>
+  <data name="ResCreditAccountRequired" xml:space="preserve">
+    <value>Tài khoản có không được để trống!</value>
+  </data>
+  <data name="ResBUPlanCanclesCaption" xml:space="preserve">
+    <value>Hủy dự toán</value>
+  </data>
+  <data name="ResbarButtonOpeningCommitmentsCaption" xml:space="preserve">
+    <value>Cam kết chi ban đầu</value>
+  </data>
+  <data name="ResInventoryCategoryId" xml:space="preserve">
+    <value>Bạn chưa nhập loại nguyên liệu, vật liệu hàng hóa</value>
+  </data>
+  <data name="ResInventoryItemId" xml:space="preserve">
+    <value>Bạn chưa nhập nguyên liệu, vật liệu hàng hóa</value>
+  </data>
+  <data name="ResbarButtonCommitmentAdjustmentCaption" xml:space="preserve">
+    <value>Điều chỉnh cam kết chi</value>
+  </data>
+  <data name="ResBUBudgetReservesCaption" xml:space="preserve">
+    <value>Dự toán giữ lại</value>
+  </data>
+  <data name="ResbarButtonBUPlanReceiptCaption" xml:space="preserve">
+    <value>Nhận dự toán</value>
+  </data>
+  <data name="ResbarButtonBUPlanAdjustmentCaption" xml:space="preserve">
+    <value>Điều chỉnh dự toán</value>
+  </data>
+  <data name="ResInventoryCategoryToolId" xml:space="preserve">
+    <value>Bạn chưa chọn loại công cụ dụng cụ</value>
+  </data>
+  <data name="ResInventoryItemToolCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã công cụ dụng cụ</value>
+  </data>
+  <data name="ResInventoryItemToolName" xml:space="preserve">
+    <value>Bạn chưa nhập tên công cụ dụng cụ</value>
+  </data>
+  <data name="ResStockDefaultAccountNumber" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản kho</value>
+  </data>
+  <data name="ResBUBudgetReserveDecisionDate" xml:space="preserve">
+    <value>Bạn chưa nhập ngày quyết định!</value>
+  </data>
+  <data name="ResBUBudgetReserveDecisionNo" xml:space="preserve">
+    <value>Bạn chưa nhập số quyết định!</value>
+  </data>
+  <data name="ResBudgetSourceIdRequired" xml:space="preserve">
+    <value>Bạn chưa nhập nguồn!</value>
+  </data>
+  <data name="ResbarButtonBUTransferCaption" xml:space="preserve">
+    <value>Chuyển khoản kho bạc</value>
+  </data>
+  <data name="ResbarButtonBUTransferDepositsCaption" xml:space="preserve">
+    <value>Chuyển khoản kho bạc vào TK tiền gửi</value>
+  </data>
+  <data name="ResDetailVoucherEmptyAccountingObjectId" xml:space="preserve">
+    <value>Bạn chưa chọn Đối tượng!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyActivityId" xml:space="preserve">
+    <value>Bạn chưa chọn công việc!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyBankAccountId" xml:space="preserve">
+    <value>Bạn chưa chọn Tài khoản ngân hàng!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyCurrencyId" xml:space="preserve">
+    <value>Bạn chưa chọn Tiền tệ!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyBudgetChapterCode" xml:space="preserve">
+    <value>Bạn chưa chọn Chương!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyBudgetItemCode" xml:space="preserve">
+    <value>Bạn chưa chọn Mục!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyBudgetKindItemCode" xml:space="preserve">
+    <value>Bạn chưa chọn Loại khoản!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyBudgetSourceId" xml:space="preserve">
+    <value>Bạn chưa chọn Nguồn vốn!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyBudgetSubItemCode" xml:space="preserve">
+    <value>Bạn chưa chọn Tiểu mục!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyFixedAssetId" xml:space="preserve">
+    <value>Bạn chưa chọn Tài sản!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyFundId" xml:space="preserve">
+    <value>Bạn chưa chọn Quỹ!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyInventoryItemId" xml:space="preserve">
+    <value>Bạn chưa chọn nguyên liệu, vật liệu, Công cụ dụng cụ!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyMethodDistributeId" xml:space="preserve">
+    <value>Bạn chưa chọn Hình thức cấp phát!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyProjectId" xml:space="preserve">
+    <value>Bạn chưa chọn dự án!</value>
+  </data>
+  <data name="ResDetailVoucherEmptyToolInventoryItemId" xml:space="preserve">
+    <value>Bạn chưa chọn công cụ dụng cụ!</value>
+  </data>
+  <data name="ResDeleteAccountCaption" xml:space="preserve">
+    <value>Xóa dữ liệu</value>
+  </data>
+  <data name="ResDeleteAccountHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa tài khoản cha</value>
+  </data>
+  <data name="ResDeleteFixedAssetCategoryItemHas" xml:space="preserve">
+    <value>Bạn không thế xóa nhóm TSCĐ cha</value>
+  </data>
+  <data name="ResBudgetChapterCodenull" xml:space="preserve">
+    <value>Bạn chưa chọn chương</value>
+  </data>
+  <data name="ResCreditAccount" xml:space="preserve">
+    <value>Bạn chưa chọn tài khoản có</value>
+  </data>
+  <data name="ResIssueDate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ResDeleteFundStructureHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa khoản chi cha</value>
+  </data>
+  <data name="ResDeleteProjectHasChild" xml:space="preserve">
+    <value>Bạn không thế xóa dự án cha!</value>
+  </data>
+  <data name="ResDeleteSubProjectHasChild" xml:space="preserve">
+    <value>Bạn không thể xóa HMCT cha</value>
+  </data>
+  <data name="ResDeleteTargetProgramHasChild" xml:space="preserve">
+    <value>Bạn không thế xóa CTMT cha</value>
+  </data>
+  <data name="ResFixedAssetCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã tài sản</value>
+  </data>
+  <data name="ResFixedAssetName" xml:space="preserve">
+    <value>Bạn chưa nhập tên tài sản</value>
+  </data>
+  <data name="ResGeneralVoucherListCaption" xml:space="preserve">
+    <value>Chứng từ ghi sổ</value>
+  </data>
+  <data name="ResReceiptInvNoOrWithdrawRefNo" xml:space="preserve">
+    <value>Số giấy rút không được để trống!</value>
+  </data>
+  <data name="ResEmptyFromDepartmentId" xml:space="preserve">
+    <value>Bạn chưa chọn Từ phòng/ban!</value>
+  </data>
+  <data name="ResEmptyToDepartmentId" xml:space="preserve">
+    <value>Bạn chưa chọn Đến phòng/ban!</value>
+  </data>
+  <data name="ResBudgetExpenseCaption" xml:space="preserve">
+    <value>Phí, lệ phí</value>
+  </data>
+  <data name="ResEmployeeCodeDuplicate" xml:space="preserve">
+    <value>Mã cán bộ '{0}' đã tồn tại!</value>
+  </data>
+  <data name="ResBudgetExpenseCode" xml:space="preserve">
+    <value>Bạn chưa nhập mã phí, lệ phí</value>
+  </data>
+  <data name="ResBudgetExpenseName" xml:space="preserve">
+    <value>Bạn chưa nhập tên phí, lệ phí</value>
+  </data>
+  <data name="ResDeleteFixedAssetCategoryItemHasChild" xml:space="preserve">
+    <value>Bạn không thế xóa nhóm TSCĐ cha</value>
+  </data>
+  <data name="ResProjectInvestmentCode" xml:space="preserve">
+    <value>Mã dự án đầu tư không được để trống!</value>
+  </data>
+  <data name="ResOpeningSupplyEntryCaption" xml:space="preserve">
+    <value>Số dư Công cụ dụng cụ</value>
+  </data>
+  <data name="ResAutoBusinessParallelCaption" xml:space="preserve">
+    <value>Định khoản đồng thời</value>
+  </data>
+  <data name="ResFixedAssetCategoryId" xml:space="preserve">
+    <value>Bạn chưa chọn loại Tài sản cố định</value>
+  </data>
+  <data name="ResFixedAssetDepartmentId" xml:space="preserve">
+    <value>Bạn chưa chọn Phòng ban</value>
+  </data>
+  <data name="ResFixedAssetOrgPrice" xml:space="preserve">
+    <value>Bạn chưa nhập Nguyên giá</value>
+  </data>
+  <data name="ResFixedAssetOrgPriceAccount" xml:space="preserve">
+    <value>Bạn chưa chọn Tài khoản nguyên giá</value>
+  </data>
+  <data name="ResFixedAssetQuantity" xml:space="preserve">
+    <value>Bạn chưa nhập số lượng Tài sản cố định</value>
+  </data>
+  <data name="ResFixedAssetSource" xml:space="preserve">
+    <value>Bạn chưa chọn Nguồn hình thành Tài sản</value>
+  </data>
+  <data name="ResBudgetSubKindItemCodeNull" xml:space="preserve">
+    <value>Bạn chưa chọn Khoản !</value>
+  </data>
+  <data name="ResCapitalAccount" xml:space="preserve">
+    <value>Bạn chưa nhập tài khoản nguồn!</value>
+  </data>
+  <data name="ResDepreciationAccount" xml:space="preserve">
+    <value>Bạn chưa nhập tài khoản hao mòn!</value>
+  </data>
+  <data name="ResDepreciationRate" xml:space="preserve">
+    <value>Bạn chưa nhập tỉ lệ hao mòn!</value>
+  </data>
+  <data name="ResLifeTime" xml:space="preserve">
+    <value>Bạn chưa nhập thời gian sử dụng!</value>
+  </data>
+  <data name="ResOrgPriceAccount" xml:space="preserve">
+    <value>Bạn chưa nhập tài khoản nguyên giá!</value>
+  </data>
+  <data name="ResVoucherCredit" xml:space="preserve">
+    <value>Bạn chưa nhập TK Có !</value>
+  </data>
+  <data name="ResVoucherDebit" xml:space="preserve">
+    <value>Bạn chưa nhập TK Nợ !</value>
+  </data>
+  <data name="IsNumberOnly" xml:space="preserve">
+    <value>Chỉ được nhập ký tự số !</value>
+  </data>
+  <data name="dateInvDateOrWithdrawRefDate" xml:space="preserve">
+    <value>Nhập ngày giấy rút!</value>
+  </data>
+  <data name="StockId" xml:space="preserve">
+    <value>Chưa chọn kho!</value>
+  </data>
+  <data name="ResEmptyCommitmentRefNo" xml:space="preserve">
+    <value>Bạn chưa nhập số cam kết chi!</value>
+  </data>
+  <data name="ResEmptyCommitmentAdjustmentRefNo" xml:space="preserve">
+    <value>Bạn chưa nhập số phiếu điều chỉnh!</value>
+  </data>
+  <data name="ResPurchaseDateLessSysemDate" xml:space="preserve">
+    <value>Ngày mua phải lớn hơn ngày bắt đầu hạch toán !</value>
+  </data>
+  <data name="ResGLVouchersLastYear" xml:space="preserve">
+    <value>Kết chuyển quyết toán dự án hoàn thành</value>
+  </data>
+  <data name="ResGLVouchersEarlyYear" xml:space="preserve">
+    <value>Kết chuyển chi phí ĐTXDCB chờ quyết toán</value>
+  </data>
+  <data name="ResGLVouchersPerformanceResults" xml:space="preserve">
+    <value>Xác định kết quả hoạt động</value>
+  </data>
+  <data name="ResRevaluationOfFixedAssets" xml:space="preserve">
+    <value>Đánh giá lại TSCĐ</value>
+  </data>
+  <data name="ResBUPlanWithdrawTransferInsurrance" xml:space="preserve">
+    <value>Rút dự toán chuyển lương, bảo hiểm</value>
+  </data>
+  <data name="ResBUTransfersPayWage" xml:space="preserve">
+    <value>Chuyển khoản trả lương</value>
+  </data>
+  <data name="ResBUTransfersPayInsurrance" xml:space="preserve">
+    <value>Chuyển khoản trả bảo hiểm</value>
+  </data>
+  <data name="ResBUVoucherListCaption" xml:space="preserve">
+    <value>Bảng kê nội dung thanh toán tạm ứng</value>
+  </data>
+  <data name="ResBUNoEstimateVoucherListCaption" xml:space="preserve">
+    <value>Bảng kê chứng từ thanh toán tạm ứng chưa cấp dự toán</value>
+  </data>
+  <data name="ValidEditBUPlanWithDraw" xml:space="preserve">
+    <value>Giấy rút dự toán hiện thời đã sinh chuyển khoản kho bạc. Bạn có muốn sửa giấy rút này không?</value>
+  </data>
+  <data name="ResValidUserName" xml:space="preserve">
+    <value>Tên đăng nhập không hợp lệ!</value>
+  </data>
+  <data name="ResFADevaluationCaption" xml:space="preserve">
+    <value>Khấu hao tài sản cố định</value>
+  </data>
+  <data name="ResBUCashBasicVoucherListCaption" xml:space="preserve">
+    <value>Bảng kê chứng từ thanh toán thực chi</value>
+  </data>
+  <data name="ResGLPaymentList" xml:space="preserve">
+    <value>Phân bổ thanh toán tạm ứng</value>
+  </data>
+  <data name="ResIsOpenInBank" xml:space="preserve">
+    <value>Bạn chưa chọn nơi mở ngân hàng!</value>
+  </data>
+  <data name="ResDashboardCaption" xml:space="preserve">
+    <value>Bàn làm việc</value>
+  </data>
+  <data name="ResTreasuryCaption" xml:space="preserve">
+    <value>Kho bạc</value>
+  </data>
+  <data name="ResToolsCaption" xml:space="preserve">
+    <value>Công cụ dụng cụ</value>
+  </data>
+  <data name="IsExpriedForUpdate" xml:space="preserve">
+    <value>Phần mềm của bạn đã hết hạn bản quyền, vui lòng gia hạn để có thể cập nhật phiên bản mới.</value>
+  </data>
+  <data name="SelectFolderForUpdate" xml:space="preserve">
+    <value>Lựa chọn thư mục để tải bản cập nhật \nLưu ý: Không cần thiết phải là thư mục cài đặt phần mềm</value>
+  </data>
+  <data name="ErrorAuroRunQuery" xml:space="preserve">
+    <value>Tự động cập nhật dữ liệu cho phiên bản mới không thành công, vui lòng liên hệ trung tâm chăm sóc khách hàng để được trợ giúp.</value>
+  </data>
+  <data name="ResContractCaption" xml:space="preserve">
+    <value>Hợp đồng</value>
+  </data>
+  <data name="ResReceiptVoucherBankEmpty" xml:space="preserve">
+    <value>Bạn chưa chọn Tài khoản NH-KB</value>
+  </data>
+  <data name="ResReceiptVBudgetSourceEmpty" xml:space="preserve">
+    <value>Bạn chưa chọn Nguồn</value>
+  </data>
+  <data name="ResBackUpDatabaseNotExist" xml:space="preserve">
+    <value>Đường dẫn sao lưu không tồn tại</value>
+  </data>
+  <data name="ResDatabaseNameCaption" xml:space="preserve">
+    <value>&lt;b&gt;Tên dữ liệu&lt;/b&gt;:</value>
+  </data>
+</root>

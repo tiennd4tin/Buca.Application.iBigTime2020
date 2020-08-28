@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8616e8f0532c4ceb9470bb9d8324daed" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="MISAModel.Account" Width="1.5" PointX="7.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountBalance" Width="1.5" PointX="17.25" PointY="293.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountBankInfo" Width="1.5" PointX="5.25" PointY="330.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountCategory" Width="1.5" PointX="0.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountingObject" Width="1.5" PointX="3" PointY="335.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountingObjectCategory" Width="1.5" PointX="2.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountParallelRule" Width="1.5" PointX="32.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountParallelRuleDetail" Width="1.5" PointX="35" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountParallelVoucherListRule" Width="1.5" PointX="29.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountParallelVoucherListRuleDetail" Width="1.5" PointX="32" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AccountTransfer" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Activity" Width="1.5" PointX="11.25" PointY="323.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AddOnConfigDetail" Width="1.5" PointX="12.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AudittingLog" Width="1.5" PointX="12.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AutoBusiness" Width="1.5" PointX="12.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AutoBusinessDetail" Width="1.5" PointX="15" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AutoBusinessParalellDetail" Width="1.5" PointX="15" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.AutoID" Width="1.5" PointX="25.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.B02CTHP1X12010Template" Width="1.5" PointX="14.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.B02HP1X12010Template" Width="1.5" PointX="17.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.B03CTHX12010Template" Width="1.5" PointX="19.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.B04CTHX12010Template" Width="1.5" PointX="0.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BABankTransfer" Width="1.5" PointX="3" PointY="384.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BABankTransferDetail" Width="1.5" PointX="7.5" PointY="434.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BABankTransferDetailParallel" Width="1.5" PointX="5.25" PointY="382.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BADeposit" Width="1.5" PointX="8.25" PointY="350.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BADepositDetail" Width="1.5" PointX="21.5" PointY="391.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BADepositDetailFixedAsset" Width="1.5" PointX="25.25" PointY="414.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BADepositDetailParallel" Width="1.5" PointX="22.5" PointY="382.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BADepositDetailSale" Width="1.5" PointX="22.5" PointY="421.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BADepositDetailTax" Width="1.5" PointX="10.5" PointY="363.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BankInfo" Width="1.5" PointX="3" PointY="376.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BankInfoCategory" Width="1.5" PointX="7.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BATransfer" Width="1.5" PointX="5.25" PointY="336.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BATransferDetail" Width="1.5" PointX="13.5" PointY="392.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BATransferDetailParallel" Width="1.5" PointX="16.5" PointY="374.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithDraw" Width="1.5" PointX="5.25" PointY="353.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithDrawDetail" Width="1.5" PointX="25.5" PointY="388.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithDrawDetailFA" Width="1.5" PointX="22.25" PointY="355.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithDrawDetailFixedAsset" Width="1.5" PointX="28.25" PointY="388.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithDrawDetailParallel" Width="1.5" PointX="22.5" PointY="374.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithDrawDetailPurchase" Width="1.5" PointX="25.5" PointY="423.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithdrawDetailSalary" Width="1.5" PointX="7.5" PointY="372.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BAWithdrawDetailTax" Width="1.5" PointX="7.5" PointY="366.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Branch" Width="1.5" PointX="17.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUBudgetAndPlanWithdrawAdjustment" Width="1.5" PointX="5.25" PointY="408.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUBudgetAndPlanWithdrawAdjustmentDetail" Width="1.5" PointX="7.5" PointY="413.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUBudgetReserve" Width="1.5" PointX="8.25" PointY="474.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUBudgetReserveDetail" Width="1.5" PointX="10.5" PointY="438" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUCommitmentAdjustment" Width="1.5" PointX="11.25" PointY="479.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUCommitmentAdjustmentDetail" Width="1.5" PointX="13.5" PointY="436.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUCommitmentRequest" Width="1.5" PointX="5.25" PointY="367.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUCommitmentRequestDetail" Width="1.5" PointX="7.5" PointY="420.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetChapter" Width="1.5" PointX="19.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetExpense" Width="1.5" PointX="5.25" PointY="399.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetGroupItem" Width="1.5" PointX="29.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetItem" Width="1.5" PointX="5.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetKindItem" Width="1.5" PointX="17.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetProvidence" Width="1.5" PointX="15" PointY="322.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetSource" Width="1.5" PointX="9.75" PointY="297.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetSourceMappingToExport" Width="1.5" PointX="32.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetSourceProperty" Width="1.5" PointX="7.5" PointY="303.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BudgetSourceTargetProgramMapping" Width="1.5" PointX="12.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanAdjustment" Width="1.5" PointX="8.25" PointY="469.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanAdjustmentDetail" Width="1.5" PointX="10.5" PointY="431.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanReceipt" Width="1.5" PointX="14.25" PointY="450.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanReceiptDetail" Width="1.5" PointX="16.5" PointY="434.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanWithdraw" Width="1.5" PointX="5.25" PointY="375.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanWithdrawAdjustment" Width="1.5" PointX="8.25" PointY="446" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanWithdrawAdjustmentDetail" Width="1.5" PointX="10.5" PointY="405" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUPlanWithdrawDetail" Width="1.5" PointX="19.5" PointY="427.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransfer" Width="1.5" PointX="8.25" PointY="375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransferDetail" Width="1.5" PointX="27.5" PointY="414.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransferDetailFA" Width="1.5" PointX="14.25" PointY="361.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransferDetailFixedAsset" Width="1.5" PointX="28.25" PointY="399.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransferDetailParallel" Width="1.5" PointX="25.5" PointY="379.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransferDetailPurchase" Width="1.5" PointX="22.5" PointY="433.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUTransferDetailSalary" Width="1.5" PointX="10.5" PointY="401.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUVoucherList" Width="1.5" PointX="6" PointY="298.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUVoucherListDetail" Width="1.5" PointX="17.25" PointY="312.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUVoucherListDetailOther" Width="1.5" PointX="20.25" PointY="311.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUVoucherListDetailParallel" Width="1.5" PointX="8.25" PointY="385.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.BUVoucherListDetailTransfer" Width="1.5" PointX="23.25" PointY="309.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPayment" Width="1.5" PointX="8.25" PointY="332.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetail" Width="1.5" PointX="16.5" PointY="394.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetailFA" Width="1.5" PointX="23.25" PointY="350.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetailFixedAsset" Width="1.5" PointX="19.25" PointY="395.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetailParallel" Width="1.5" PointX="13.5" PointY="379.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetailPurchase" Width="1.5" PointX="19.5" PointY="407.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetailSalary" Width="1.5" PointX="19.5" PointY="355.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAPaymentDetailTax" Width="1.5" PointX="10.5" PointY="368.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceipt" Width="1.5" PointX="17.25" PointY="342.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceiptDetail" Width="1.5" PointX="22.5" PointY="400.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceiptDetailFixedAsset" Width="1.5" PointX="25.5" PointY="397.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceiptDetailParallel" Width="1.5" PointX="19.5" PointY="382.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceiptDetailSale" Width="1.5" PointX="5.25" PointY="426.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceiptDetailTax" Width="1.5" PointX="19.5" PointY="368.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CAReceiptQLTHHistory" Width="1.5" PointX="19.5" PointY="373.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CashWithdrawType" Width="1.5" PointX="14.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.CCY" Width="1.5" PointX="6" PointY="307.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ChangeLog" Width="1.5" PointX="34.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ColumnMapping" Width="1.5" PointX="19.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ConfigType" Width="1.5" PointX="34.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ConvertMapping" Width="1.5" PointX="14.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DataBandSortCollection" Width="1.5" PointX="5.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DBHistory" Width="1.5" PointX="7.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DBHistoryDetail" Width="1.5" PointX="9.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DBInfo" Width="1.5" PointX="11.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DBOption" Width="1.5" PointX="35.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Department" Width="1.5" PointX="0.75" PointY="343.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DocumentManager" Width="1.5" PointX="13.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DVCBusinessTreasuryConfig" Width="1.5" PointX="25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DVCReportDetail" Width="1.5" PointX="25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DVCReportList" Width="1.5" PointX="22.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.EmployeeIncomeTax" Width="1.5" PointX="35.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.EmployeePayItem" Width="1.5" PointX="9" PointY="284.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.EmployeeType" Width="1.5" PointX="0.75" PointY="340.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.EQImportHistory" Width="1.5" PointX="11.25" PointY="486" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAAdjustment" Width="1.5" PointX="14.25" PointY="339.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAAdjustmentDetail" Width="1.5" PointX="16.5" PointY="404" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAAdjustmentDetailFA" Width="1.5" PointX="6" PointY="343.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAAdjustmentDetailParallel" Width="1.5" PointX="16.5" PointY="382.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FADepreciation" Width="1.5" PointX="11.25" PointY="474.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FADepreciationDetail" Width="1.5" PointX="13.5" PointY="409.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FADepreciationDetailFA" Width="1.5" PointX="20.25" PointY="352.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FADevaluationDetailFA" Width="1.5" PointX="23.25" PointY="346.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAImportHistory" Width="1.5" PointX="11.25" PointY="489.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAIncrementDecrement" Width="1.5" PointX="12" PointY="469.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAIncrementDecrementDetail" Width="1.5" PointX="14.25" PointY="400.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FAIncrementDecrementDetailFA" Width="1.5" PointX="9" PointY="345.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FATransfer" Width="1.5" PointX="6.75" PointY="325.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FATransferDetail" Width="1.5" PointX="9" PointY="342.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FixedAsset" Width="1.5" PointX="12" PointY="339.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FixedAssetCategory" Width="1.5" PointX="15.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FixedAssetDetailAccessory" Width="1.5" PointX="14.25" PointY="351.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FixedAssetExpenseSource" Width="1.5" PointX="14.25" PointY="354.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FixedAssetLedger" Width="1.5" PointX="23.25" PointY="336.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FRColumnList" Width="1.5" PointX="35.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FRFormula_Custom" Width="1.5" PointX="3" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FRFormula_Default" Width="1.5" PointX="33" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FRFunctionList" Width="1.5" PointX="35.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FRTemplate_Custom" Width="1.5" PointX="0.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FRTemplate_Default" Width="1.5" PointX="30.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Fund" Width="1.5" PointX="11.25" PointY="316.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.FundStructure" Width="1.5" PointX="15" PointY="307.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GeneralLedger" Width="1.5" PointX="17.25" PointY="330.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRB03BCQTDetailBudget" Width="1.5" PointX="10" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRB03BCQTDetailGeneral" Width="1.5" PointX="10" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRB03BCQTDetailReceipt" Width="1.5" PointX="10" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRB03BCQTDetailUseSource" Width="1.5" PointX="10" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRSetting" Width="1.5" PointX="7.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRSetting_04_BCTC" Width="1.5" PointX="35.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRSetting_1a_BCTC" Width="1.5" PointX="35.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRSetting_2a_BCTC" Width="1.5" PointX="36.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLFIRSetting_3a_BCTC" Width="1.5" PointX="36.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLVoucher" Width="1.5" PointX="9" PointY="456.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLVoucherDetail" Width="1.5" PointX="7.5" PointY="396.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLVoucherDetailParallel" Width="1.5" PointX="11.25" PointY="388.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLVoucherDetailTax" Width="1.5" PointX="11.25" PointY="492.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLVoucherList" Width="1.5" PointX="18" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.GLVoucherListDetail" Width="1.5" PointX="20.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ImportVoucherList" Width="1.5" PointX="25.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ImportVoucherMappingConfig" Width="1.5" PointX="28" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.INAdjustment" Width="1.5" PointX="5.25" PointY="459.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.INAdjustmentDetail" Width="1.5" PointX="7.5" PointY="464" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.IncomeTaxVoucher" Width="1.5" PointX="25.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.INInwardOutward" Width="1.5" PointX="14.25" PointY="345.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.INInwardOutwardDetail" Width="1.5" PointX="22.5" PointY="409.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.INTransfer" Width="1.5" PointX="5.25" PointY="492.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.INTransferDetail" Width="1.5" PointX="7.5" PointY="497.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventoryItem" Width="1.5" PointX="5.25" PointY="498.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventoryItemCategory" Width="1.5" PointX="27.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventoryItemHistory" Width="1.5" PointX="37.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventoryLedger" Width="1.5" PointX="25.5" PointY="367.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventoryLedgerConvert" Width="1.5" PointX="37.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventorySettlement" Width="1.5" PointX="5.25" PointY="507.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InventorySettlementDetail" Width="1.5" PointX="19.5" PointY="420.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InvoiceFormNumber" Width="1.5" PointX="18" PointY="325.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InvoiceStatement" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.InvoiceTypeAutoID" Width="1.5" PointX="37.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.LayoutField" Width="1.5" PointX="10.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ListItem" Width="1.5" PointX="6.75" PointY="312.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MenuItem" Width="1.5" PointX="10.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_Auditting_Log" Width="1.5" PointX="37.75" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_Log" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_LoginPermission" Width="1.5" PointX="37.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_Object" Width="1.5" PointX="3" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_ObjectType" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_PropertyValue" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_Reference" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_Relationship" Width="1.5" PointX="8.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_RelationshipType" Width="1.5" PointX="6" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_User" Width="1.5" PointX="5.25" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningAccountEntry" Width="1.5" PointX="11.25" PointY="376.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningAccountEntryDetailInvoice" Width="1.5" PointX="29.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningAccountEntryDetailListItem" Width="1.5" PointX="31.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningCommitment" Width="1.5" PointX="18" PointY="305.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningCommitmentDetail" Width="1.5" PointX="20.25" PointY="325.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningFixedAssetEntry" Width="1.5" PointX="14.25" PointY="366.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningInvenryEntryByProjectActivity" Width="1.5" PointX="5.25" PointY="449.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningInventoryByProject" Width="1.5" PointX="10.5" PointY="419.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningInventoryEntry" Width="1.5" PointX="10.5" PointY="499.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningProjectActivityExpense" Width="1.5" PointX="7.5" PointY="442.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningSupplyEntry" Width="1.5" PointX="7.5" PointY="515.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OpeningTask" Width="1.5" PointX="13.5" PointY="387.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.OriginalGeneralLedger" Width="1.5" PointX="23.25" PointY="317.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAAccountingObjectHistory" Width="1.5" PointX="37.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAAccountingObjectSalaryDetail" Width="1.5" PointX="11.25" PointY="334.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAConfigPayrollItemReftype" Width="1.5" PointX="38.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PALayoutTemplate" Width="1.5" PointX="30.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PALayoutTemplateDetail" Width="1.5" PointX="33" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAOption" Width="1.5" PointX="38.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAOtherInputSalary" Width="1.5" PointX="9" PointY="328.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAOtherInputSalaryDetail" Width="1.5" PointX="11.25" PointY="356.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAPaymentHistory" Width="1.5" PointX="33.75" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAPersonalIncomeTax" Width="1.5" PointX="12" PointY="311.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAPersonalIncomeTaxDetail" Width="1.5" PointX="14.25" PointY="336.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ParallelReference" Width="1.5" PointX="0.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ParamSupplementInfo" Width="1.5" PointX="2.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ParamSupplementInfoPerVoucher" Width="1.5" PointX="4.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalary" Width="1.5" PointX="15" PointY="302.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalaryDetail" Width="1.5" PointX="17.25" PointY="353.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalaryDetailAllocation" Width="1.5" PointX="17.25" PointY="300.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalaryHistory" Width="1.5" PointX="6.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalaryPayrollExpense" Width="1.5" PointX="19.25" PointY="379.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalarySheet" Width="1.5" PointX="20.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalarySheetColumn" Width="1.5" PointX="23" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalarySheetDetail" Width="1.5" PointX="23" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PASalarySortOrder" Width="1.5" PointX="14.25" PointY="358.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PATimeSheet" Width="1.5" PointX="30.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PATimeSheetDetail" Width="1.5" PointX="33" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAWorkPoint" Width="1.5" PointX="15" PointY="299.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PAWorkPointDetail" Width="1.5" PointX="17.25" PointY="356.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PayrollItem" Width="1.5" PointX="6.75" PointY="288.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PayrollItemColumn" Width="1.5" PointX="9" PointY="288.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PayrollItemDefault" Width="1.5" PointX="8.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PersonalIncomeTaxDeclarationTemplate" Width="1.5" PointX="39.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PersonalIncomeTaxDeclarationTemplate_02KK" Width="1.5" PointX="10.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PlanByTopic" Width="1.5" PointX="5.25" PointY="441.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PostMapping" Width="1.5" PointX="39.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Project" Width="1.5" PointX="3" PointY="396.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ProjectActivityAllocationConfig" Width="1.5" PointX="5.25" PointY="456.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ProjectBudgetDetail" Width="1.5" PointX="8.25" PointY="409.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ProjectBudgetPlan" Width="1.5" PointX="39.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ProjectBudgetSource" Width="1.5" PointX="8.25" PointY="405.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ProjectExpense" Width="1.5" PointX="5.25" PointY="465.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PUInvoice" Width="1.5" PointX="5.25" PointY="539" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PUInvoiceDetail" Width="1.5" PointX="10.5" PointY="444.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PUInvoiceDetailFA" Width="1.5" PointX="19.25" PointY="435.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PUInvoiceDetailFixedAsset" Width="1.5" PointX="19.25" PointY="440.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.PurchasePurpose" Width="1.5" PointX="17" PointY="412" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.QuickReportLayout" Width="1.5" PointX="39.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RefNoConfig" Width="1.5" PointX="17.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RefType" Width="1.5" PointX="10.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RefTypeCategory" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportAddOn" Width="1.5" PointX="19.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportAdvanceConfig" Width="1.5" PointX="39.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportColumnCaption" Width="1.5" PointX="39.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportConfigMargin" Width="1.5" PointX="39.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportConfigToPrint" Width="1.5" PointX="39.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportInputControlConfig" Width="1.5" PointX="22.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportList" Width="1.5" PointX="39.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportListConfig" Width="1.5" PointX="27.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportListConfigDetail" Width="1.5" PointX="30" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportMergeList" Width="1.5" PointX="30" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportMergeType" Width="1.5" PointX="27.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportPopupConfig" Width="1.5" PointX="35.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ReportVisibleConfig" Width="1.5" PointX="40.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFDictionaryValue" Width="1.5" PointX="20.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFFormula" Width="1.5" PointX="18" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFFormulaDetail" Width="1.5" PointX="20.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFSystemFunction" Width="1.5" PointX="15.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFSystemFunctionParameter" Width="1.5" PointX="18" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFUserFunction" Width="1.5" PointX="18" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFUserFunctionParameter" Width="1.5" PointX="20.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFUserFunctionParameterValue" Width="1.5" PointX="22.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RFValueType" Width="1.5" PointX="18" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RLTBudget" Width="1.5" PointX="25.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RLTDictionary" Width="1.5" PointX="40.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RLTGroupBy" Width="1.5" PointX="37.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RLTMasterGroup" Width="1.5" PointX="39.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RLTOption" Width="1.5" PointX="41.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_B02_H1" Width="1.5" PointX="41.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_B02_H2_HCM" Width="1.5" PointX="12.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_B05_H" Width="1.5" PointX="14.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_B06_H" Width="1.5" PointX="41.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_F02_3bH" Width="1.5" PointX="27.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_S41_H_P1" Width="1.5" PointX="29.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_StateProposal" Width="1.5" PointX="25.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_StateProposalDetail" Width="1.5" PointX="28" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RPT_VATDeclare" Width="1.5" PointX="31.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.S04CTHTemplate" Width="1.5" PointX="41.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SAInvoice" Width="1.5" PointX="20.25" PointY="343.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SAInvoiceDetail" Width="1.5" PointX="13.5" PointY="421.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SAInvoiceDetailFixedAsset" Width="1.5" PointX="25.5" PointY="405.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SalaryScale" Width="1.5" PointX="41.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SAReturn" Width="1.5" PointX="20.25" PointY="335" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SAReturnDetail" Width="1.5" PointX="16.5" PointY="423.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ScheduleAppointment" Width="1.5" PointX="41.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ScheduleTask" Width="1.5" PointX="16.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SearchField" Width="1.5" PointX="42.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.StateProposalTemplate" Width="1.5" PointX="42.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Stock" Width="1.5" PointX="17.25" PointY="452" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SubSystem" Width="1.5" PointX="10.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SubSystemLayoutField" Width="1.5" PointX="13" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SubSystemMenuItem" Width="1.5" PointX="13" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SubSystemRefType" Width="1.5" PointX="13" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SubSystemRefTypeCategory" Width="1.5" PointX="16" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SubSystemReport" Width="1.5" PointX="13" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SUIncrementDecrement" Width="1.5" PointX="12" PointY="306.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SUIncrementDecrementDetail" Width="1.5" PointX="10.5" PointY="424.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SupplementInfo" Width="1.5" PointX="0.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SupplyLedger" Width="1.5" PointX="7.5" PointY="427.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SUTransfer" Width="1.5" PointX="14.25" PointY="446.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SUTransferDetail" Width="1.5" PointX="16.5" PointY="418.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SysAutoDictionaryID" Width="1.5" PointX="33.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.SysFixCode" Width="1.5" PointX="43.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TableList" Width="1.5" PointX="28" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TACircularVATDeclaration" Width="1.5" PointX="25.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TACircularVATDeclarationDetail" Width="1.5" PointX="28" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TAPurchaseSaleList" Width="1.5" PointX="24.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TAPurchaseSaleListDetail" Width="1.5" PointX="27" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Task" Width="1.5" PointX="11.25" PointY="457.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TempAccount" Width="1.5" PointX="43.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TempFixedAssetCategory162" Width="1.5" PointX="43.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TempFixedAssetCategoryTT45" Width="1.5" PointX="18.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TempMapingFixedAssetCategory162" Width="1.5" PointX="43.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TempMapingFixedAssetCategoryTT45" Width="1.5" PointX="43.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.TimeSheetSign" Width="1.5" PointX="43.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.Topic" Width="1.5" PointX="3" PointY="425.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.UpdateCircular" Width="1.5" PointX="43.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.UpdateField" Width="1.5" PointX="43.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ValueChanger" Width="1.5" PointX="43.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.VATDeclaration" Width="1.5" PointX="43.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.VATDeclarationTemplate" Width="1.5" PointX="44.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.VoucherReference" Width="1.5" PointX="24.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.VoucherReferenceDetail" Width="1.5" PointX="27" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.VoucherTableList" Width="1.5" PointX="44.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.VoucherType" Width="1.5" PointX="15.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.B03HX12010Template" Width="1.5" PointX="45.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.DictionaryNeedDelete" Width="1.5" PointX="45.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.MSC_RelationshipAll" Width="1.5" PointX="5.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.ProjectDefault" Width="1.5" PointX="45.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MISAModel.RelationReport" Width="1.5" PointX="45.75" PointY="17.375" IsExpanded="true" />
+        <AssociationConnector Association="MISAModel.FK_AccountBalance_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AccountBankInfor_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AccountingObject_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AccountingObject_EmployeeType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AccountingObjectSalary_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADeposit_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransfer_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDraw_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequest_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdraw_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransfer_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPayment_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailSalary_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceipt_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GeneralLedger_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_AccountingObject1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutward_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransfer_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventoryItem_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlement_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryByProject_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PAOtherInputSalaryDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PAPersonalIncomeTaxDetail_AccountingObject1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalaryNomalDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalarySortOrder_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PAWorkPointDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoice_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoice_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturn_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_AccountingObject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AccountParallelRuleDetail_RuleID" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AccountParallelVoucherListRuleDetail_AccountParallelVoucherListRule" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AutoBusinessDetail_AutoBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_AutoBusinessParalellDetail_AutoBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_TableList_AutoID" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransfer_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetail_BABankTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_BABankTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetail_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BABankTransferDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADeposit_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADeposit_InvoiceFormNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_BADeposit" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_BADeposit" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_BADeposit" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_BADeposit" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailTax_BADeposit" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BADepositDetailSale_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdraw_BankInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransfer_BankInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_BankInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransfer_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_BATransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_BATransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BATransferDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDraw_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFA_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithdrawDetailSalary_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithdrawDetailTax_BAWithDraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFA_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_PurchasePurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_PurchasePurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BAWithDrawDetailPurchase_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetAndPlanWithdrawAdjustment_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetAndPlanWithdrawAdjustment_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetAndPlanWithdrawAdjustment_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetAndPlanWithdrawAdjustment_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetAndPlanWithdrawAdjustmentDetail_BUBudgetAndPlanWithdrawAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserve_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_BUBudgetReserve" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUBudgetReserveDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_BUCommitmentAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentAdjustmentDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_BUCommitmentRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUCommitmentRequestDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_BudgetExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailOther_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailTransfer_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailSale_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GeneralLedger_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransferDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventoryLedger_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningCommitmentDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OriginalGeneralLedger_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ProjectBudgetDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ProjectBudgetSource_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_BudgetProvidence" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BudgetSource_BudgetSourceProperty" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_BudgetSource_FromBudgetSourceID" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_BudgetSource_ToBudgetSourceID" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailTransfer_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventoryLedger_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryByProject_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryEntry_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningTask_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PayrollItem_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_BudgetSource" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_BUPlanAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_ProjectaEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanAdjustmentDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceipt_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_BUPlanReceipt" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanReceiptDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdraw_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdraw_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_BUPlanWithdraw" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustment_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_BUPlanWithdrawAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_Project_ProjectActivity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_ToProject" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawAdjustmentDetail_ToTask" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_ProjectEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUPlanWithdrawDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransfer_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransfer_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_BUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFA_BUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_BUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_BUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_BUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailSalary_BUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_ProjectExpense1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFA_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_ProjectExpense1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_ProjectExpense1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUTransferDetailPurchase_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetail_BUVoucherList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailOther_BUVoucherList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_BUVoucherList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailTransfer_BUVoucherList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailOther_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_BUVoucherListDetailTransfer_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPayment_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFA_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailSalary_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailTax_CAPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_ProjectActivityEAID" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFA_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_PurchasePurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_PurchasePurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAPaymentDetailPurchase_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceipt_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceipt_InvoiceFormNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_CAReceipt" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_CAReceipt" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_CAReceipt" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailTax_CAReceipt" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptQLTHHistory_CAReceipt" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_CAReceiptDetailSale_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucher_CCY" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjusmentDetailFA_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetailFA_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FATransferDetail_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FATransferDetail_Department1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FixedAsset_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FixedAssetLedger_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalarySortOrder_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_Project_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFA_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SupplyLedger_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUTransferDetail_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUTransferDetail_Department1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_Topic_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_DVCBusinessTreasuryConfig_DVCReportList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_DVCBusinessTreasuryConfig_RefType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_DVCReportDetail_DVCReportList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_EmployeePayItem_PayrollItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_EQImportHistory_GLVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjusmentDetailFA_FAAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustment_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_FAAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAjustmentDetail_FAAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_ProjectExpense1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjusmentDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAAdjustmentDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_FADepreciation" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetailFA_FADepreciation" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADevaluationDetailFA_FADepreciation" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_ProjectExpense1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADepreciationDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FADevaluationDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAImportHistory_GLVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_FAIncrementDecrement" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetailFA_FAIncrementDecrement" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_ProjectExpense1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FAIncrementDecrementDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FATransferDetail_FATransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FATransferDetail_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FATransferDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FixedAssetBudgetSource_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FixedAssetDetailAccessory_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FixedAssetLedger_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningFixedAssetEntry_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFA_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_FixedAsset" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FRFormula_Custom_FRTemplate_Custom" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_FRFormula_Default_FRTemplate_Default" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Fund" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GeneralLedger_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryByProject_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningProjectActivityExpense_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OriginalGeneralLedger_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_FundStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_B03BCQTDetailBudget_GLFIRSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_B03BCQTDetailGeneral_GLFIRSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_B03BCQTDetailReceipt_GLFIRSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_B03BCQTDetailUseSource_GLFIRSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_GLVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_GLVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailTax_GLVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalaryPayrollExpense_GLVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherDetailParallel_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherList_VoucherType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_GLVoucherListDetail_GLVoucherList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ImportVoucherMappingConfig_ImportVoucherList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INAdjustmentDetail_INAdjustment" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INAdjustmentDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INAdjustmentDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INAdjustmentDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutward_SUIncrementDecrement" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_INInwardOutward" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_ProjectActivity" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INInwardOutwardDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransferDetail_INTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransferDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransferDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransferDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_INTransferDetail_Stock1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryByProject_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryEntry_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningSupplyEntry_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SupplyLedger_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUTransferDetail_InventoryItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventoryLedger_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_InventorySettlement" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InventorySettlementDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InvoiceFormNumber_InvoiceFormNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoice_InvoiceFormNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturn_InvoiceFormNumber" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_InvoiceStatement_InvoiceStatement" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemLayoutField_LayoutField" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUTransferDetail_ListItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemMenuItem_MenuItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Log_MSC_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Log_MSC_Object1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Object_MSC_ObjectType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_PropertyValue_MSC_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_PropertyValue_MSC_Object1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Reference_MSC_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Relationship_MSC_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Relationship_MSC_Object1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_RelationshipAll_MSC_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_RelationshipAll_MSC_Object1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_User_MSC_Object" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Reference_MSC_ObjectType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_MSC_Relationship_MSC_RelationshipType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningAccountEntry_Project2" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningCommitmentRequestDetail_OpeningCommitmentRequest" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInvenryEntryByProjectActivity_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInvenryEntryByProjectActivity_ProjectEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryByProject_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningInventoryByProject_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningProjectActivityExpense_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningProjectActivityExpense_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningProjectActivityExpense_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_OpeningTask_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PAAccountingObjectSalaryDetail_PayrollItemColumn" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalaryTemplateDetail_PASalaryTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PAOtherInputSalaryDetail_PAOtherInputSalary" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PAPersonalIncomeTaxDetail_PAPersonalIncomeTax" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalaryDetailAllocation_PASalary" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalaryNomalDetail_PASalaryNomal" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalaryPayrollExpense_PASalary" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalarySheetColumn_PASalarySheet" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PASalarySheetDetail_PASalarySheet" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PATimeSheetDetail_PATimeSheet" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PATimeSheetDetail_PATimeSheet1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PayrollItemColumn_PayrollItem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PlanByTopic_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ProjectActivityAllocationConfig_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ProjectBudgetDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ProjectBudgetSource_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ProjectExpense_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_Project" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_Project1" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_ProjectActivityEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_ProjectExpense" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_ProjectExpenseEA" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_PUInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFA_PUInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_PUInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_PurchasePurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_PurchasePurpose" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_PUInvoiceDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemRefType_RefType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemRefTypeCategory_RefTypeCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ReportListConfigDetail_ReportListConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_ReportMergeDetail_ReportMergeType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFDictionaryValue_RFValueType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunctionParameterValue_RFDictionaryValue" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFFomulaDetail_RFFormula" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFFomulaDetail_RFUserFunction" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunctionParameterValue_RFFomulaDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFSystemFunctionParameter_RFSystemFunction" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunction_RFSystemFunction" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunctionParameter_RFSystemFunctionParameter" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunctionParameter_RFUserFunction" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunctionParameter_RFValueType" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RFUserFunctionParameterValue_RFUserFunctionParameter" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_RPT_StateProposalDetail_RPT_StateProposal" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_SAInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_SAInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAInvoiceDetailFixedAsset_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_SAReturn" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_Stock" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_Task" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SAReturnDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemLayoutField_SubSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemMenuItem_SubSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemRefType_SubSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemRefTypeCategory_SubSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SubSystemReport_SubSystem" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_SUIncrementDecrement" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUIncrementDecrementDetail_Topic" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_SUTransferDetail_SUTransfer" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_TACircularVATDeclarationDetail_TACircularVATDeclaration" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_TaxPurchaseListDetail_TaxPurchaseList" ManuallyRouted="false" />
+        <AssociationConnector Association="MISAModel.FK_VoucherReferenceDetail_VoucherReference" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

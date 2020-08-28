@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3CE9801-E4B1-4FA7-A01F-1B3E684271C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Buca.Application.iBigTime2020.Presenter</RootNamespace>
+    <AssemblyName>Buca.Application.iBigTime2020.Presenter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>C:\Program Files (x86)\DevExpress\DXperience 12.2\Bin\Framework\DevExpress.XtraEditors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cash\AccountBalance\AccountBalancePresenter.cs" />
+    <Compile Include="Cash\AccountBalance\AccountBalancesPresenter.cs" />
+    <Compile Include="Cash\GeneralLedger\GeneralLedgerPresenter.cs" />
+    <Compile Include="Cash\GeneralLedger\GeneralLedgersPresenter.cs" />
+    <Compile Include="Cash\PaymentVoucher\CAPaymentPresenter.cs" />
+    <Compile Include="Cash\PaymentVoucher\CAPaymentsPresenter.cs" />
+    <Compile Include="Cash\ReceiptVoucher\CAReceiptPresenter.cs" />
+    <Compile Include="Cash\ReceiptVoucher\CAReceiptsPresenter.cs" />
+    <Compile Include="CompareObjects.cs" />
+    <Compile Include="Deposit\BABankTransferPresenter.cs" />
+    <Compile Include="Deposit\BABankTransfersPresenter.cs" />
+    <Compile Include="Deposit\BADepositPresenter.cs" />
+    <Compile Include="Deposit\BADepositsPresenter.cs" />
+    <Compile Include="Deposit\BAWithDrawPresenter.cs" />
+    <Compile Include="Deposit\BAWithDrawsPresenter.cs" />
+    <Compile Include="Dictionary\AccountCategory\AccountCategoriesPresenter.cs" />
+    <Compile Include="Dictionary\AccountCategory\AccountCategoryPresenter.cs" />
+    <Compile Include="Dictionary\AutoBusinessParallel\AutoBusinessParallelsPresenter.cs" />
+    <Compile Include="Dictionary\AutoBusinessParallel\AutoBusinessParallelPresenter.cs" />
+    <Compile Include="Dictionary\BudgetExpense\BudgetExpensesPresenter.cs" />
+    <Compile Include="Dictionary\BudgetExpense\BudgetExpensePresenter.cs" />
+    <Compile Include="Dictionary\AccountingObjectCategory\AccountingObjectCategoriesPresenter.cs" />
+    <Compile Include="Dictionary\AccountingObjectCategory\AccountingObjectCategoryPresenter.cs" />
+    <Compile Include="Dictionary\AccountingObject\AccountingObjectPresenter.cs" />
+    <Compile Include="Dictionary\AccountingObject\AccountingObjectsPresenter.cs" />
+    <Compile Include="Dictionary\AccountTransfer\AccountTransferPresenter.cs" />
+    <Compile Include="Dictionary\AccountTransfer\AccountTransfersPresenter.cs" />
+    <Compile Include="Dictionary\Account\AccountPresenter.cs" />
+    <Compile Include="Dictionary\Account\AccountsPresenter.cs" />
+    <Compile Include="Dictionary\AudittingLog\AudittingLogPresenter.cs" />
+    <Compile Include="Dictionary\AudittingLog\AudittingLogsPresenter.cs" />
+    <Compile Include="Dictionary\AutoBusiness\AutoBusinessesPresenter.cs" />
+    <Compile Include="Dictionary\AutoBusiness\AutoBusinessPresenter.cs" />
+    <Compile Include="Dictionary\AutoNumber\AutoIDPresenter.cs" />
+    <Compile Include="Dictionary\AutoNumber\AutoNumbersPresenter.cs" />
+    <Compile Include="Dictionary\Bank\BankPresenter.cs" />
+    <Compile Include="Dictionary\Bank\BanksPresenter.cs" />
+    <Compile Include="Dictionary\BudgetChapter\BudgetChapterPresenter.cs" />
+    <Compile Include="Dictionary\BudgetChapter\BudgetChaptersPresenter.cs" />
+    <Compile Include="Dictionary\BudgetGroupItem\BudgetGroupItemsPresenter.cs" />
+    <Compile Include="Dictionary\BudgetItem\BudgetItemPresenter.cs" />
+    <Compile Include="Dictionary\BudgetItem\BudgetItemsPresenter.cs" />
+    <Compile Include="Dictionary\BudgetKindItem\BudgetKindItemPresenter.cs" />
+    <Compile Include="Dictionary\BudgetKindItem\BudgetKindItemsPresenter.cs" />
+    <Compile Include="Dictionary\BudgetProvidence\BudgetProvidencePresenter.cs" />
+    <Compile Include="Dictionary\BudgetProvidence\BudgetProvidencesPresenter.cs" />
+    <Compile Include="Dictionary\BudgetSourceCategory\BudgetSourceCategoriesPresenter.cs" />
+    <Compile Include="Dictionary\BudgetSourceCategory\BudgetSourceCategoryPresenter.cs" />
+    <Compile Include="Dictionary\BudgetSource\BudgetSourcePresenter.cs" />
+    <Compile Include="Dictionary\BudgetSource\BudgetSourcesPresenter.cs" />
+    <Compile Include="Dictionary\CalculateClosing\CalculateClosingPresenter.cs" />
+    <Compile Include="Dictionary\CalculateClosing\CalulateClosingsPresenter.cs" />
+    <Compile Include="Dictionary\Activity\ActivityPresenter.cs" />
+    <Compile Include="Dictionary\Activity\ActivitysPresenter.cs" />
+    <Compile Include="Dictionary\CapitalPlan\CapitalPlanPresenter.cs" />
+    <Compile Include="Dictionary\CapitalPlan\CapitalPlansPresenter.cs" />
+    <Compile Include="Dictionary\CashWithdrawType\CashWithdrawTypesPresenter.cs" />
+    <Compile Include="Dictionary\Contract\ContractDetailsPresenter.cs" />
+    <Compile Include="Dictionary\Currency\CurrenciesPresenter.cs" />
+    <Compile Include="Dictionary\Currency\CurrencyPresenter.cs" />
+    <Compile Include="Dictionary\DBOption\DBOptionPresenter.cs" />
+    <Compile Include="Dictionary\DBOption\DBOptionsPresenter.cs" />
+    <Compile Include="Dictionary\Department\DepartmentPresenter.cs" />
+    <Compile Include="Dictionary\Department\DepartmentsPresenter.cs" />
+    <Compile Include="Dictionary\EmployeeType\EmployeeTypePresenter.cs" />
+    <Compile Include="Dictionary\EmployeeType\EmployeeTypesPresenter.cs" />
+    <Compile Include="Dictionary\FixedAssetCategory\FixedAssetCategoriesPresenter.cs" />
+    <Compile Include="Dictionary\FixedAssetCategory\FixedAssetCategoryPresenter.cs" />
+    <Compile Include="Dictionary\FixedAsset\FixedAssetPresenter.cs" />
+    <Compile Include="Dictionary\FixedAsset\FixedAssetsPresenter.cs" />
+    <Compile Include="Dictionary\FundStructure\FundStructurePresenter.cs" />
+    <Compile Include="Dictionary\FundStructure\FundStructuresPresenter.cs" />
+    <Compile Include="Dictionary\InventoryItemCategory\InventoryItemCategoriesPresenter.cs" />
+    <Compile Include="Dictionary\InventoryItem\InventoryItemPresenter.cs" />
+    <Compile Include="Dictionary\InventoryItem\InventoryItemdestinationsPresenter.cs" />
+    <Compile Include="Dictionary\InventoryItem\InventoryItemsPresenter.cs" />
+    <Compile Include="Dictionary\InvoiceType\InvoiceTypiesPresenter.cs" />
+    <Compile Include="Dictionary\InvoiceType\InvoiceTypePresenter.cs" />
+    <Compile Include="Dictionary\InvoiceFormNumber\InvoiceFormNumberPresenter.cs" />
+    <Compile Include="Dictionary\InvoiceFormNumber\InvoiceFormNumbersPresenter.cs" />
+    <Compile Include="Dictionary\Contract\ContractPresenter.cs" />
+    <Compile Include="Dictionary\Contract\ContractsPresenter.cs" />
+    <Compile Include="Dictionary\Project\ProjectPresenter.cs" />
+    <Compile Include="Dictionary\Project\ProjectsPresenter.cs" />
+    <Compile Include="Dictionary\PurchasePurpose\PurchasePurposePresenter.cs" />
+    <Compile Include="Dictionary\PurchasePurpose\PurchasePurposesPresenter.cs" />
+    <Compile Include="Dictionary\RefType\RefTypePresenter.cs" />
+    <Compile Include="Dictionary\RefType\RefTypesPresenter.cs" />
+    <Compile Include="Dictionary\Stock\StockPresenter.cs" />
+    <Compile Include="Dictionary\Stock\StocksPresenter.cs" />
+    <Compile Include="Dictionary\TaxItem\TaxItemPresenter.cs" />
+    <Compile Include="Dictionary\TaxItem\TaxItemsPresenter.cs" />
+    <Compile Include="Dictionary\TaxType\TaxTypePresenter.cs" />
+    <Compile Include="Dictionary\TaxType\TaxTypesPresenter.cs" />
+    <Compile Include="Dictionary\VoucherList\VoucherListPresenter.cs" />
+    <Compile Include="Dictionary\VoucherList\VoucherListsPresenter.cs" />
+    <Compile Include="Estimate\BUBudgetReservePresenter.cs" />
+    <Compile Include="Estimate\BUBudgetReservesPresenter.cs" />
+    <Compile Include="Estimate\BUCommitmentAdjustmentPresenter.cs" />
+    <Compile Include="Estimate\BUCommitmentAdjustmentsPresenter.cs" />
+    <Compile Include="Estimate\BUCommitmentRequestPresenter.cs" />
+    <Compile Include="Estimate\BUCommitmentRequestsPresenter.cs" />
+    <Compile Include="Estimate\BUPlanAdjustmentPresenter.cs" />
+    <Compile Include="Estimate\BUPlanAdjustmentsPresenter.cs" />
+    <Compile Include="Estimate\BUPlanReceiptsPresenter.cs" />
+    <Compile Include="Estimate\BUPlanReceiptPresenter.cs" />
+    <Compile Include="Estimate\BUPlanWithdrawTransferInsurrancePresenter.cs" />
+    <Compile Include="Estimate\BUPlanWithdrawPresenter.cs" />
+    <Compile Include="Estimate\BUPlanWithdrawTransferInsurrancesPresenter.cs" />
+    <Compile Include="Estimate\BUPlanWithdrawsPresenter.cs" />
+    <Compile Include="Estimate\BUTransferPayWagePresenter.cs" />
+    <Compile Include="Estimate\BUTransferPresenter.cs" />
+    <Compile Include="Estimate\BUTransferDetailPurchasePresenter.cs" />
+    <Compile Include="Estimate\BUTransfersPresenter.cs" />
+    <Compile Include="Estimate\BUVoucherListPresenter.cs" />
+    <Compile Include="Estimate\BUVoucherListsPresenter.cs" />
+    <Compile Include="ExportXml\ExportXmlDetailPresenter.cs" />
+    <Compile Include="ExportXml\ExportXmlPresenter.cs" />
+    <Compile Include="FixedAsset\FixedAssetArmortization\FADepreciationPresenter.cs" />
+    <Compile Include="FixedAsset\FixedAssetArmortization\FADepreciationsPresenter.cs" />
+    <Compile Include="FixedAsset\FixedAssetLedger\FixedAssetLedgerPresenter.cs" />
+    <Compile Include="FixedAsset\FixedAssetLedger\FixedAssetLedgersPresenter.cs" />
+    <Compile Include="General\GLPaymentListParamatersPresenter.cs" />
+    <Compile Include="General\GLPaymentListPresenter.cs" />
+    <Compile Include="General\GLPaymentListsPresenter.cs" />
+    <Compile Include="General\GLVoucherListParamaterPresenter.cs" />
+    <Compile Include="General\GLVoucherListParamatersPresenter.cs" />
+    <Compile Include="General\GLVoucherListPresenter.cs" />
+    <Compile Include="General\GLVoucherListsPresenter.cs" />
+    <Compile Include="General\GLVoucherLastYearPresenter.cs" />
+    <Compile Include="General\GLVoucherEarlyYearPresenter.cs" />
+    <Compile Include="General\GLVoucherPerformanceResultsPresenter.cs" />
+    <Compile Include="General\GLVoucherPresenter.cs" />
+    <Compile Include="General\GLVouchersLastYearPresenter.cs" />
+    <Compile Include="General\GLVouchersEarlyYearPresenter.cs" />
+    <Compile Include="General\GLVouchersPerformanceResultsPresenter.cs" />
+    <Compile Include="General\GLVouchersPresenter.cs" />
+    <Compile Include="IncrementDecrement\FAAdjustmentPresenter.cs" />
+    <Compile Include="IncrementDecrement\FAIncrementDecrementPresenter.cs" />
+    <Compile Include="IncrementDecrement\FAAdjustmentsPresenter.cs" />
+    <Compile Include="IncrementDecrement\FAIncrementDecrementsPresenter.cs" />
+    <Compile Include="IncrementDecrement\SUIncrementDecrementPresenter.cs" />
+    <Compile Include="IncrementDecrement\SUIncrementDecrementsPresenter.cs" />
+    <Compile Include="IncrementDecrement\SUTransferPresenter.cs" />
+    <Compile Include="IncrementDecrement\SUTransfersPresenter.cs" />
+    <Compile Include="Inventory\INInwardOutwardPresenter.cs" />
+    <Compile Include="Inventory\INInwardOutwardsPresenter.cs" />
+    <Compile Include="OpeningInventory\OpeningInventoryEntriesPresenter.cs" />
+    <Compile Include="Opening\OpeningAccountEntriesPresenter.cs" />
+    <Compile Include="Opening\OpeningAccountEntryPresenter.cs" />
+    <Compile Include="Opening\OpeningCommitmentPresenter.cs" />
+    <Compile Include="Opening\OpeningCommitmentsPresenter.cs" />
+    <Compile Include="Opening\OpeningFixedAssetEntriesPresenter.cs" />
+    <Compile Include="Opening\OpeningFixedAssetEntryPresenter.cs" />
+    <Compile Include="Opening\OpeningSupplyEntriesPresenter.cs" />
+    <Compile Include="Opening\OpeningSupplyEntryPresenter.cs" />
+    <Compile Include="Presenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PUInvoice\PUInvoicePresenter.cs" />
+    <Compile Include="PUInvoice\PUInvoicesPresenter.cs" />
+    <Compile Include="Report\FixedAssetHousingReportPresenter.cs" />
+    <Compile Include="Report\ReportDataTemplatesPresenter.cs" />
+    <Compile Include="Report\ReportGroupPresenter.cs" />
+    <Compile Include="Report\ReportListPresenter.cs" />
+    <Compile Include="System\FeaturePermission\UserFeaturePermisionPresenter.cs" />
+    <Compile Include="System\FeaturePermission\FeaturePermisionPresenter.cs" />
+    <Compile Include="System\FeaturePermission\UserPermisionsPresenter.cs" />
+    <Compile Include="System\FeaturePermission\FeaturesPresenter.cs" />
+    <Compile Include="System\Lock\LockPresenter.cs" />
+    <Compile Include="System\UserProfile\DashBoardActivityPresenter.cs" />
+    <Compile Include="System\UserProfile\DashBoardBudgetPresenter.cs" />
+    <Compile Include="System\UserProfile\DashBoardCashPresenter.cs" />
+    <Compile Include="System\UserProfile\UserControlMainDesktopPresenter.cs" />
+    <Compile Include="System\UserProfile\UserProfilePresenter.cs" />
+    <Compile Include="System\UserProfile\UserProfilesPresenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Buca.Application.iBigTime2020.DataHelpers\Buca.Application.iBigTime2020.DataHelpers.csproj">
+      <Project>{35AEE1CC-6E66-4130-A41B-555499797ED0}</Project>
+      <Name>Buca.Application.aBigTime.DataHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buca.Application.iBigTime2020.Model\Buca.Application.iBigTime2020.Model.csproj">
+      <Project>{989cf15f-35a7-4bcc-aa36-a5d010031392}</Project>
+      <Name>Buca.Application.aBigTime.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buca.Application.iBigTime2020.View\Buca.Application.iBigTime2020.View.csproj">
+      <Project>{68c5cd05-c4e8-4184-93c2-39ce0006e115}</Project>
+      <Name>Buca.Application.aBigTime.View</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

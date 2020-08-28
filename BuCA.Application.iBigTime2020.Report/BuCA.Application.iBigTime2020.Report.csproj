@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F8805F5-08E8-4BC5-B5F2-3F0432F3D972}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BuCA.Application.iBigTime2020.Report</RootNamespace>
+    <AssemblyName>BuCA.Application.iBigTime2020.Report</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Docking, Version=4.3.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.3.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="ComponentFactory.Krypton.Ribbon, Version=4.3.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.3.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="ComponentFactory.Krypton.Workspace, Version=4.3.1.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e" />
+    <Reference Include="DataManagement">
+      <HintPath>..\packages\Sql Server\DataManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="DateTimeRangeBlockDev">
+      <HintPath>..\packages\DateTimeRangeBlockDev.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.BonusSkins.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.Data.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.Office.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.Printing.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.RichEdit.v12.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.Utils.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraBars.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraEditors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraGrid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraLayout.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraNavBar.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraRichEdit.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraTreeList.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.2, Version=12.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>G:\Develop\IS-Bigtime\dllDev\DevExpress.XtraVerticalGrid.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.NetFwTypeLib">
+      <HintPath>..\packages\Sql Server\Interop.NetFwTypeLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\packages\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PerpetuumSoft.Charts">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Framework">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Framework.Connectivity">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Framework.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Framework.Export">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Framework.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Framework.Model">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Framework.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Instrumentation">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Olap">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Olap.dll</HintPath>
+    </Reference>
+    <Reference Include="PerpetuumSoft.Reporting">
+      <HintPath>G:\SDC\ISBIGTIME-BINHDINH\isBigTime.WindowsForm\bin\Debug\PerpetuumSoft.Reporting.dll</HintPath>
+    </Reference>
+    <Reference Include="RSSHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\RSSHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseParameterForm\FrmGetProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseParameterForm\FrmGetProject.Designer.cs">
+      <DependentUpon>FrmGetProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseParameterForm\FrmXtraBaseComboTreeMultiFixedAssetCategoryParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseParameterForm\FrmXtraBaseComboTreeMultiFixedAssetCategoryParameter.Designer.cs">
+      <DependentUpon>FrmXtraBaseComboTreeMultiFixedAssetCategoryParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseParameterForm\FrmXtraBaseParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseParameterForm\FrmXtraBaseParameter.Designer.cs">
+      <DependentUpon>FrmXtraBaseParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonClass\CommonText.cs" />
+    <Compile Include="CommonClass\LookUpItem.cs" />
+    <Compile Include="CommonClass\XtraColumn.cs" />
+    <Compile Include="FrmC301NS_Param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmC301NS_Param.Designer.cs">
+      <DependentUpon>FrmC301NS_Param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainReport\AssemblyInfomation.cs" />
+    <Compile Include="MainReport\FrmXtraExportXMLToTreasury.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainReport\FrmXtraExportXMLToTreasury.Designer.cs">
+      <DependentUpon>FrmXtraExportXMLToTreasury.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainReport\FrmXtraExportBCTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainReport\FrmXtraExportBCTC.Designer.cs">
+      <DependentUpon>FrmXtraExportBCTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainReport\FrmXtraExportXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainReport\FrmXtraExportXML.Designer.cs">
+      <DependentUpon>FrmXtraExportXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainReport\XtraAboutFormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainReport\XtraAboutFormReport.Designer.cs">
+      <DependentUpon>XtraAboutFormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\ComboBoxMultiSelect.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB01KB_Param.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB01KB_Param.Designer.cs">
+      <DependentUpon>FrmB01KB_Param.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB04BCTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB04BCTC.Designer.cs">
+      <DependentUpon>FrmB04BCTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC205ANS_Params.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC205ANS_Params.Designer.cs">
+      <DependentUpon>FrmC205ANS_Params.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC301NS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC301NS.Designer.cs">
+      <DependentUpon>FrmC301NS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC301NS_SelectParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC301NS_SelectParent.Designer.cs">
+      <DependentUpon>FrmC301NS_SelectParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC302NS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC302NS.Designer.cs">
+      <DependentUpon>FrmC302NS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC203NS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC203NS.Designer.cs">
+      <DependentUpon>FrmC203NS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB01BCQT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB01BCQT.Designer.cs">
+      <DependentUpon>FrmB01BCQT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB03BCQT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB03BCQT.Designer.cs">
+      <DependentUpon>FrmB03BCQT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC206NS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC206NS.Designer.cs">
+      <DependentUpon>FrmC206NS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC55HD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC55HD.Designer.cs">
+      <DependentUpon>FrmC55HD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmChooseCaPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmChooseCaPayment.Designer.cs">
+      <DependentUpon>FrmChooseCaPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmChooseCaReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmChooseCaReceipt.Designer.cs">
+      <DependentUpon>FrmChooseCaReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmF0102BCQT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmF0102BCQT.Designer.cs">
+      <DependentUpon>FrmF0102BCQT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmF0101BCQT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmF0101BCQT.Designer.cs">
+      <DependentUpon>FrmF0101BCQT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinacialReport01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinacialReport01.Designer.cs">
+      <DependentUpon>FrmFinacialReport01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB01H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmB01H.Designer.cs">
+      <DependentUpon>FrmB01H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC2_02aNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC2_02aNS.Designer.cs">
+      <DependentUpon>FrmC2_02aNS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC2_02bNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC2_02bNS.Designer.cs">
+      <DependentUpon>FrmC2_02bNS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinacialReportB02BCTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinacialReportB02BCTC.Designer.cs">
+      <DependentUpon>FrmFinacialReportB02BCTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFixedAssetS24H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFixedAssetS24H.Designer.cs">
+      <DependentUpon>FrmFixedAssetS24H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmPaymentVoucherListPrintFromVoucher_TT39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmPaymentVoucherListPrintFromVoucher_TT39.Designer.cs">
+      <DependentUpon>FrmPaymentVoucherListPrintFromVoucher_TT39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinancialReportB03aBCTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinancialReportB03aBCTC.Designer.cs">
+      <DependentUpon>FrmFinancialReportB03aBCTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFixedAssetDecreaseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFixedAssetDecreaseList.Designer.cs">
+      <DependentUpon>FrmFixedAssetDecreaseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFixedAssetC56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFixedAssetC56.Designer.cs">
+      <DependentUpon>FrmFixedAssetC56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmGLVoucherListDetailParamaterReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmGLVoucherListDetailParamaterReport.Designer.cs">
+      <DependentUpon>FrmGLVoucherListDetailParamaterReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmGLVoucherListLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmGLVoucherListLedger.Designer.cs">
+      <DependentUpon>FrmGLVoucherListLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmGLVoucherListParamaterReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmGLVoucherListParamaterReport.Designer.cs">
+      <DependentUpon>FrmGLVoucherListParamaterReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmInventoryFixedAsset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmInventoryFixedAsset.Designer.cs">
+      <DependentUpon>FrmInventoryFixedAsset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmMinutesInventoryFixedAsset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmMinutesInventoryFixedAsset.Designer.cs">
+      <DependentUpon>FrmMinutesInventoryFixedAsset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmMinutesInventoryTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmMinutesInventoryTool.Designer.cs">
+      <DependentUpon>FrmMinutesInventoryTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS02aH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS02aH.designer.cs">
+      <DependentUpon>FrmS02aH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS101H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS101H.Designer.cs">
+      <DependentUpon>FrmS101H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS101H3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS101H3.Designer.cs">
+      <DependentUpon>FrmS101H3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS104H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS104H.Designer.cs">
+      <DependentUpon>FrmS104H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS105H2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS105H2.Designer.cs">
+      <DependentUpon>FrmS105H2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS101HPartII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS101HPartII.Designer.cs">
+      <DependentUpon>FrmS101HPartII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS102H1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS102H1.Designer.cs">
+      <DependentUpon>FrmS102H1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS105H1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS105H1.Designer.cs">
+      <DependentUpon>FrmS105H1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS106H1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS106H1.Designer.cs">
+      <DependentUpon>FrmS106H1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS106H2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS106H2.Designer.cs">
+      <DependentUpon>FrmS106H2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS21H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS21H.Designer.cs">
+      <DependentUpon>FrmS21H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS26HFixedAsset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS26HFixedAsset.Designer.cs">
+      <DependentUpon>FrmS26HFixedAsset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS26H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS26H.Designer.cs">
+      <DependentUpon>FrmS26H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS31H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS31H.designer.cs">
+      <DependentUpon>FrmS31H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\frmS33-H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\frmS33-H.Designer.cs">
+      <DependentUpon>frmS33-H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS27.Designer.cs">
+      <DependentUpon>FrmS27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS51H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS51H.Designer.cs">
+      <DependentUpon>FrmS51H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmToolIncreDecre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmToolIncreDecre.Designer.cs">
+      <DependentUpon>FrmToolIncreDecre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS52H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS52H.Designer.cs">
+      <DependentUpon>FrmS52H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS34H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS34H.Designer.cs">
+      <DependentUpon>FrmS34H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC402CKB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC402CKB.Designer.cs">
+      <DependentUpon>FrmC402CKB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC4_09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC4_09.Designer.cs">
+      <DependentUpon>FrmC4_09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmCash05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmCash05.Designer.cs">
+      <DependentUpon>FrmCash05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinance 01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinance 01.Designer.cs">
+      <DependentUpon>FrmFinance 01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmFinance.Designer.cs">
+      <DependentUpon>FrmFinance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC33BB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmC33BB.Designer.cs">
+      <DependentUpon>FrmC33BB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS01H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS01H.Designer.cs">
+      <DependentUpon>FrmS01H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS03H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS03H.Designer.cs">
+      <DependentUpon>FrmS03H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS05H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS05H.Designer.cs">
+      <DependentUpon>FrmS05H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS04H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS04H.Designer.cs">
+      <DependentUpon>FrmS04H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS11HDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS11HDetail.Designer.cs">
+      <DependentUpon>FrmS11HDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS11H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS11H.Designer.cs">
+      <DependentUpon>FrmS11H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS12HDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS12HDetail.Designer.cs">
+      <DependentUpon>FrmS12HDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS12H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS12H.Designer.cs">
+      <DependentUpon>FrmS12H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS13H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS13H.Designer.cs">
+      <DependentUpon>FrmS13H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS22H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParameterReportForm\FrmS22H.Designer.cs">
+      <DependentUpon>FrmS22H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CommonClass\GridLookUpItem.cs" />
+    <Compile Include="MainReport\FrmXtraReportList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainReport\FrmXtraReportList.Designer.cs">
+      <DependentUpon>FrmXtraReportList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportClass\BaseReport.cs" />
+    <Compile Include="ReportClass\CashReport.cs" />
+    <Compile Include="ReportClass\DepositReport.cs" />
+    <Compile Include="ReportClass\DynamicObject.cs" />
+    <Compile Include="ReportClass\ExportXML.cs" />
+    <Compile Include="ReportClass\ExportXmlBCTC.cs" />
+    <Compile Include="ReportClass\ExportXmlToTreasury.cs" />
+    <Compile Include="ReportClass\FinacialReport.cs" />
+    <Compile Include="ReportClass\FixedAssetReport.cs" />
+    <Compile Include="ReportClass\GridCheckMarksSelection.cs" />
+    <Compile Include="ReportClass\InventoryReport.cs" />
+    <Compile Include="ReportClass\ReportHelper.cs" />
+    <Compile Include="ReportClass\ReportLedgerAccounting.cs" />
+    <Compile Include="ReportClass\ReportTool.cs" />
+    <Compile Include="ReportClass\SettlementReport.cs" />
+    <Compile Include="ReportClass\TreasuaryReport.cs" />
+    <Compile Include="ReportClass\VoucherReport.cs" />
+    <Compile Include="_I_BIGTIME_2020DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_I_BIGTIME_2020DataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ReportData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BaseParameterForm\FrmGetProject.resx">
+      <DependentUpon>FrmGetProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseParameterForm\FrmXtraBaseComboTreeMultiFixedAssetCategoryParameter.resx">
+      <DependentUpon>FrmXtraBaseComboTreeMultiFixedAssetCategoryParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseParameterForm\FrmXtraBaseParameter.resx">
+      <DependentUpon>FrmXtraBaseParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmC301NS_Param.resx">
+      <DependentUpon>FrmC301NS_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainReport\FrmXtraExportXMLToTreasury.resx">
+      <DependentUpon>FrmXtraExportXMLToTreasury.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainReport\FrmXtraExportBCTC.resx">
+      <DependentUpon>FrmXtraExportBCTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainReport\FrmXtraExportXML.resx">
+      <DependentUpon>FrmXtraExportXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainReport\FrmXtraReportList.resx">
+      <DependentUpon>FrmXtraReportList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainReport\XtraAboutFormReport.resx">
+      <DependentUpon>XtraAboutFormReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmB01KB_Param.resx">
+      <DependentUpon>FrmB01KB_Param.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmB04BCTC.resx">
+      <DependentUpon>FrmB04BCTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC205ANS_Params.resx">
+      <DependentUpon>FrmC205ANS_Params.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC301NS.resx">
+      <DependentUpon>FrmC301NS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC301NS_SelectParent.resx">
+      <DependentUpon>FrmC301NS_SelectParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC302NS.resx">
+      <DependentUpon>FrmC302NS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC203NS.resx">
+      <DependentUpon>FrmC203NS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmB01BCQT.resx">
+      <DependentUpon>FrmB01BCQT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmB03BCQT.resx">
+      <DependentUpon>FrmB03BCQT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC206NS.resx">
+      <DependentUpon>FrmC206NS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC55HD.resx">
+      <DependentUpon>FrmC55HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmChooseCaPayment.resx">
+      <DependentUpon>FrmChooseCaPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmChooseCaReceipt.resx">
+      <DependentUpon>FrmChooseCaReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmF0102BCQT.resx">
+      <DependentUpon>FrmF0102BCQT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmF0101BCQT.resx">
+      <DependentUpon>FrmF0101BCQT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFinacialReport01.resx">
+      <DependentUpon>FrmFinacialReport01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmB01H.resx">
+      <DependentUpon>FrmB01H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC2_02aNS.resx">
+      <DependentUpon>FrmC2_02aNS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC2_02bNS.resx">
+      <DependentUpon>FrmC2_02bNS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFinacialReportB02BCTC.resx">
+      <DependentUpon>FrmFinacialReportB02BCTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFixedAssetS24H.resx">
+      <DependentUpon>FrmFixedAssetS24H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmPaymentVoucherListPrintFromVoucher_TT39.resx">
+      <DependentUpon>FrmPaymentVoucherListPrintFromVoucher_TT39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFinancialReportB03aBCTC.resx">
+      <DependentUpon>FrmFinancialReportB03aBCTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFixedAssetDecreaseList.resx">
+      <DependentUpon>FrmFixedAssetDecreaseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFixedAssetC56.resx">
+      <DependentUpon>FrmFixedAssetC56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmGLVoucherListDetailParamaterReport.resx">
+      <DependentUpon>FrmGLVoucherListDetailParamaterReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmGLVoucherListLedger.resx">
+      <DependentUpon>FrmGLVoucherListLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmGLVoucherListParamaterReport.resx">
+      <DependentUpon>FrmGLVoucherListParamaterReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmInventoryFixedAsset.resx">
+      <DependentUpon>FrmInventoryFixedAsset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmMinutesInventoryFixedAsset.resx">
+      <DependentUpon>FrmMinutesInventoryFixedAsset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmMinutesInventoryTool.resx">
+      <DependentUpon>FrmMinutesInventoryTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS02aH.resx">
+      <DependentUpon>FrmS02aH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS101H.resx">
+      <DependentUpon>FrmS101H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS101H3.resx">
+      <DependentUpon>FrmS101H3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS104H.resx">
+      <DependentUpon>FrmS104H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS105H2.resx">
+      <DependentUpon>FrmS105H2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS101HPartII.resx">
+      <DependentUpon>FrmS101HPartII.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS102H1.resx">
+      <DependentUpon>FrmS102H1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS105H1.resx">
+      <DependentUpon>FrmS105H1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS106H1.resx">
+      <DependentUpon>FrmS106H1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS106H2.resx">
+      <DependentUpon>FrmS106H2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS21H.resx">
+      <DependentUpon>FrmS21H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS26HFixedAsset.resx">
+      <DependentUpon>FrmS26HFixedAsset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS26H.resx">
+      <DependentUpon>FrmS26H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS31H.resx">
+      <DependentUpon>FrmS31H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\frmS33-H.resx">
+      <DependentUpon>frmS33-H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS27.resx">
+      <DependentUpon>FrmS27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS51H.resx">
+      <DependentUpon>FrmS51H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmToolIncreDecre.resx">
+      <DependentUpon>FrmToolIncreDecre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS52H.resx">
+      <DependentUpon>FrmS52H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS34H.resx">
+      <DependentUpon>FrmS34H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC402CKB.resx">
+      <DependentUpon>FrmC402CKB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC4_09.resx">
+      <DependentUpon>FrmC4_09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmCash05.resx">
+      <DependentUpon>FrmCash05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFinance 01.resx">
+      <DependentUpon>FrmFinance 01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmFinance.resx">
+      <DependentUpon>FrmFinance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmC33BB.resx">
+      <DependentUpon>FrmC33BB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS01H.resx">
+      <DependentUpon>FrmS01H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS03H.resx">
+      <DependentUpon>FrmS03H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS05H.resx">
+      <DependentUpon>FrmS05H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS04H.resx">
+      <DependentUpon>FrmS04H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS11HDetail.resx">
+      <DependentUpon>FrmS11HDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS11H.resx">
+      <DependentUpon>FrmS11H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS12HDetail.resx">
+      <DependentUpon>FrmS12HDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS12H.resx">
+      <DependentUpon>FrmS12H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS13H.resx">
+      <DependentUpon>FrmS13H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterReportForm\FrmS22H.resx">
+      <DependentUpon>FrmS22H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Buca.Application.iBigTime2020.Model\Buca.Application.iBigTime2020.Model.csproj">
+      <Project>{989cf15f-35a7-4bcc-aa36-a5d010031392}</Project>
+      <Name>Buca.Application.aBigTime.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buca.Application.iBigTime2020.Presenter\Buca.Application.iBigTime2020.Presenter.csproj">
+      <Project>{a3ce9801-e4b1-4fa7-a01f-1b3e684271c1}</Project>
+      <Name>Buca.Application.aBigTime.Presenter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuCA.Application.iBigTime2020.Session\BuCA.Application.iBigTime2020.Session.csproj">
+      <Project>{387501bd-3dd5-4e3e-a592-00713d8fe59d}</Project>
+      <Name>BuCA.Application.aBigTime.Session</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Buca.Application.iBigTime2020.View\Buca.Application.iBigTime2020.View.csproj">
+      <Project>{68c5cd05-c4e8-4184-93c2-39ce0006e115}</Project>
+      <Name>Buca.Application.aBigTime.View</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuCA.Enum\BuCA.Enum.csproj">
+      <Project>{923f1acb-893f-4d65-b2bf-8bb2bcb10d30}</Project>
+      <Name>BuCA.Enum</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\GIOI-THIEU-CHUONG-TRINH.jpg" />
+    <None Include="_I_BIGTIME_2020DataSet.xsc">
+      <DependentUpon>_I_BIGTIME_2020DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_I_BIGTIME_2020DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_I_BIGTIME_2020DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_I_BIGTIME_2020DataSet.xss">
+      <DependentUpon>_I_BIGTIME_2020DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
